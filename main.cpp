@@ -8,205 +8,205 @@ int main()
     int num, ajudar=false,ferramenta=false,luva=false,trocar=false, expulso=false,cajado_fogo_verdadeiro,escolha1, escolha2, escolha3, escolha4, escolha5;;
 
 
-//INTRODU«√O
-    cout<<"Em uma realidade medieval de feiticeiros e seres desconhecidos, vocÍ È um misterioso e poderoso mago de uma grande guilda. ";
-    cout<<"\nSentado na taberna da guilda em mais um dia frio do rigoroso inverno de Freljord, sem dinheiro para sobreviver, o implac·vel mago vai atÈ o mural de missıes e se depara com missıes de diferentes nÌveis.";
-    cout<<"\nUma f·cil que n„o lhe retornaria muito dinheiro, outra mediana que poderia lhe dar alguns dias de folga e uma a desafiar suas habilidades mÌsticas, porÈm iria lhe recompensar pela tamanha dificuldade. ";
+//INTRODU√á√ÉO
+    cout<<"Em uma realidade medieval de feiticeiros e seres desconhecidos, voc√™ √© um misterioso e poderoso mago de uma grande guilda. ";
+    cout<<"\nSentado na taberna da guilda em mais um dia frio do rigoroso inverno de Freljord, sem dinheiro para sobreviver, o implac√°vel mago vai at√© o mural de miss√µes e se depara com miss√µes de diferentes n√≠veis.";
+    cout<<"\nUma f√°cil que n√£o lhe retornaria muito dinheiro, outra mediana que poderia lhe dar alguns dias de folga e uma a desafiar suas habilidades m√≠sticas, por√©m iria lhe recompensar pela tamanha dificuldade. ";
     cout<<"\nDigite 1 2 ou 3: ";
     cin>>num;
-//1 - INÕCIO DA HIST”RIA 1
+//1 - IN√çCIO DA HIST√ìRIA 1
     if (num == 1){
-        cout<<endl<< "  VocÍ fala com o lÌder da guilda e aceita a miss„o de caÁar os espÌritos da neve. Ele\n te orienta dizendo que a montanha guarda diversos perigos, e È difÌcil saber quando vocÍ\n pode correr perigo ou n„o. VocÍ vai atÈ o pÈ das montanhas gÈlidas. Se depara com dois caminhos: ";
-        cout<<endl<< "  Na opÁ„o 1 tem um terreno irregular, e na opÁ„o 2 um terreno mais plano, porÈm ambas tÍm placas de perigo.";
-        cout<<endl<< "\n  Digite a opÁ„o: ";
+        cout<<endl<< "  Voc√™ fala com o l√≠der da guilda e aceita a miss√£o de ca√ßar os esp√≠ritos da neve. Ele\n te orienta dizendo que a montanha guarda diversos perigos, e √© dif√≠cil saber quando voc√™\n pode correr perigo ou n√£o. Voc√™ vai at√© o p√© das montanhas g√©lidas. Se depara com dois caminhos: ";
+        cout<<endl<< "  Na op√ß√£o 1 tem um terreno irregular, e na op√ß√£o 2 um terreno mais plano, por√©m ambas t√™m placas de perigo.";
+        cout<<endl<< "\n  Digite a op√ß√£o: ";
         cin>> num;
 //1.1 - TERRENO IRREGULAR
         if(num==1){
-            cout<<endl<<"  VocÍ escolhe ir pelo terreno irregular. Seguindo em direÁ„o atÈ a parte alta da montanha.";
-            cout<<endl<<"  VocÍ tem um pouco de dificuldade na subida ent„o acaba ficando cada vez mais \n tarde, o frio da montanha n„o È nem um pouco aconchegante, porÈm quanto \n mais vocÍ demorar,quanto mais tarde, mais perigo vocÍ corre. Ent„o vocÍ deve fazer uma difÌcil decis„o:";
-            cout<<endl<<"  A opÁ„o 1 È armar abrigo e repousar atÈ a manh„ seguinte. E a opÁ„o 2 vocÍ continuar em meio a noite.";
-            cout<<endl<<"\n  Digite a opÁ„o: ";
+            cout<<endl<<"  Voc√™ escolhe ir pelo terreno irregular. Seguindo em dire√ß√£o at√© a parte alta da montanha.";
+            cout<<endl<<"  Voc√™ tem um pouco de dificuldade na subida ent√£o acaba ficando cada vez mais \n tarde, o frio da montanha n√£o √© nem um pouco aconchegante, por√©m quanto \n mais voc√™ demorar,quanto mais tarde, mais perigo voc√™ corre. Ent√£o voc√™ deve fazer uma dif√≠cil decis√£o:";
+            cout<<endl<<"  A op√ß√£o 1 √© armar abrigo e repousar at√© a manh√£ seguinte. E a op√ß√£o 2 voc√™ continuar em meio a noite.";
+            cout<<endl<<"\n  Digite a op√ß√£o: ";
             cin>> num;
 //2.1 - ARMAR ABRIGO E REPOUSAR
             if(num==1){
-                cout<<endl<<"  VocÍ escolhe montar um abrigo e repousar atÈ a manh„ seguinte.";
-                cout<<endl<<"  A noite passa tranquila, o sol resplandece no horizonte em uma vista estonteante \n prÛximo ao topo da montanha. VocÍ chega prÛximo ao topo da montanha e \n finalmente encontra um montante de espÌritos da nave. S„o como bolas de neves \n flutuantes, seu valor provÈm da baixa temperatura que emite de seu corpo. No ver„o \n custam fortunas para resfriar os lares. VocÍ coleta algumas dezenas e coloca em \n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma \n avalanche vindo em sua direÁ„o. VocÍ pode escolher entre:";
-                cout<<endl<<"  A opÁ„o 1 que È correr ou a opÁ„o 2 ficar e utilizar magia de fogo para conter a neve.";
-                cout<<endl<<"\n  Digite a opÁ„o: ";
+                cout<<endl<<"  Voc√™ escolhe montar um abrigo e repousar at√© a manh√£ seguinte.";
+                cout<<endl<<"  A noite passa tranquila, o sol resplandece no horizonte em uma vista estonteante \n pr√≥ximo ao topo da montanha. Voc√™ chega pr√≥ximo ao topo da montanha e \n finalmente encontra um montante de esp√≠ritos da nave. S√£o como bolas de neves \n flutuantes, seu valor prov√©m da baixa temperatura que emite de seu corpo. No ver√£o \n custam fortunas para resfriar os lares. Voc√™ coleta algumas dezenas e coloca em \n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma \n avalanche vindo em sua dire√ß√£o. Voc√™ pode escolher entre:";
+                cout<<endl<<"  A op√ß√£o 1 que √© correr ou a op√ß√£o 2 ficar e utilizar magia de fogo para conter a neve.";
+                cout<<endl<<"\n  Digite a op√ß√£o: ";
                 cin>> num;
 //3.1 - CORRER
                 if(num==1){
-                    cout<<endl<<"  VocÍ escolhe correr o mais r·pido possÌvel.";
-                    cout<<endl<<"  Ao correr o mais r·pido possÌvel, o estrondo se aproximou rapidamente.\n  No meio da sua corrida vocÍ È apunhalado nas costas.";
-                    cout<<endl<<"\n  VocÍ morreu.";
+                    cout<<endl<<"  Voc√™ escolhe correr o mais r√°pido poss√≠vel.";
+                    cout<<endl<<"  Ao correr o mais r√°pido poss√≠vel, o estrondo se aproximou rapidamente.\n  No meio da sua corrida voc√™ √© apunhalado nas costas.";
+                    cout<<endl<<"\n  Voc√™ morreu.";
                     return 0;}
 //3.2 - UTILIZAR A MAGIA
                 else{
-                    cout<<endl<<"  VocÍ escolhe utilizar sua magia de fogo para conte a neve.";
-                    cout<<endl<<"  VocÍ utiliza a magia de fogo para conter a neve. VocÍ conseguiu conter \n a avalanche, em meio ao vapor criado do calor e do frio surge uma figura\n com uma ,presenÁa inabal·vel. Amedrontado vocÍ tem duas opÁıes: ";
-                    cout<<endl<<"  A opÁ„o 1 È se reverenciar, pedir perd„o por qualquer coisa que tenha feito\n e pedir permiss„o para ir embora. A opÁ„o 2 È levantar o seu cajado e atacar com sua magia poderosa.";
-                    cout<<endl<<"\n  Digite a opÁ„o: ";
+                    cout<<endl<<"  Voc√™ escolhe utilizar sua magia de fogo para conte a neve.";
+                    cout<<endl<<"  Voc√™ utiliza a magia de fogo para conter a neve. Voc√™ conseguiu conter \n a avalanche, em meio ao vapor criado do calor e do frio surge uma figura\n com uma ,presen√ßa inabal√°vel. Amedrontado voc√™ tem duas op√ß√µes: ";
+                    cout<<endl<<"  A op√ß√£o 1 √© se reverenciar, pedir perd√£o por qualquer coisa que tenha feito\n e pedir permiss√£o para ir embora. A op√ß√£o 2 √© levantar o seu cajado e atacar com sua magia poderosa.";
+                    cout<<endl<<"\n  Digite a op√ß√£o: ";
                     cin>> num;
 //4.1 - REVERENCIAR
                     if(num==1){
-                        cout<<endl<<"  VocÍ escolhe se reverenciar, pedir perd„o por qualquer coisa que tenha feito e pedir permiss„o para ir embora.";
-                        cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, pede para soltar\n os espÌritos e o permite ir embora apenas com o que È seu.\n VocÍ desce a montanha em direÁ„o a cidade da casa da guilda.\n VocÍ continua vivo, mas sem os espÌritos para vender.";
-                        cout<<endl<<"\n  VocÍ vence por conseguir sair vivo.";
+                        cout<<endl<<"  Voc√™ escolhe se reverenciar, pedir perd√£o por qualquer coisa que tenha feito e pedir permiss√£o para ir embora.";
+                        cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, pede para soltar\n os esp√≠ritos e o permite ir embora apenas com o que √© seu.\n Voc√™ desce a montanha em dire√ß√£o a cidade da casa da guilda.\n Voc√™ continua vivo, mas sem os esp√≠ritos para vender.";
+                        cout<<endl<<"\n  Voc√™ vence por conseguir sair vivo.";
                         return 0;}
 //4.2 - ATACAR
                     else{
-                        cout<<endl<<"  VocÍ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
-                        cout<<endl<<"  VocÍ ataca com uma poderosa magia de fogo, em meio as labaredas\n surgem a figura em uma velocidade sobre humana e corta sua cabeÁa.";
-                        cout<<endl<<"\n VocÍ morre decapitado.";
+                        cout<<endl<<"  Voc√™ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
+                        cout<<endl<<"  Voc√™ ataca com uma poderosa magia de fogo, em meio as labaredas\n surgem a figura em uma velocidade sobre humana e corta sua cabe√ßa.";
+                        cout<<endl<<"\n Voc√™ morre decapitado.";
                         return 0;}
                     }
                 }
 //2.2 - SEGUIR VIAGEM
             else{
-                cout<<endl<<"  VocÍ escolher seguir viajem durante a noite.";
-                cout<<endl<<"  Em meio a noite vocÍ ouve alguns uivos vindo em sua direÁ„o, quando avista com a \n luz do luar uma alcateia de lobos, vindo em sua direÁ„o. VocÍ tem que rapidamente decidir: ";
-                cout<<endl<<"  A opÁ„o 1 È pegar seu cajado e utilizar magia para enfrent·-los, a opÁ„o 2 È se esconder embaixo da neve.";
-                cout<<endl<<"\n  Digite a opÁ„o: ";
+                cout<<endl<<"  Voc√™ escolher seguir viajem durante a noite.";
+                cout<<endl<<"  Em meio a noite voc√™ ouve alguns uivos vindo em sua dire√ß√£o, quando avista com a \n luz do luar uma alcateia de lobos, vindo em sua dire√ß√£o. Voc√™ tem que rapidamente decidir: ";
+                cout<<endl<<"  A op√ß√£o 1 √© pegar seu cajado e utilizar magia para enfrent√°-los, a op√ß√£o 2 √© se esconder embaixo da neve.";
+                cout<<endl<<"\n  Digite a op√ß√£o: ";
                 cin>> num;
 //3.1 - ATACAR
                 if(num==1){
-                    cout<<endl<<"  VocÍ escolhe utilizar seu cajado para atacar os lobos.";
-                    cout<<endl<<"  VocÍ derrota alguns lobos, mas s„o muito, depois do primeiro lobo\n te alcanÁar fica difÌcil lutar ent„o vocÍ n„o resiste as mordidas.";
-                    cout<<endl<<"\n VocÍ foi devorado.";
+                    cout<<endl<<"  Voc√™ escolhe utilizar seu cajado para atacar os lobos.";
+                    cout<<endl<<"  Voc√™ derrota alguns lobos, mas s√£o muito, depois do primeiro lobo\n te alcan√ßar fica dif√≠cil lutar ent√£o voc√™ n√£o resiste as mordidas.";
+                    cout<<endl<<"\n Voc√™ foi devorado.";
                     return 0;}
 //3.2 - SE ESCONDER
                 else{
-                    cout<<endl<<"  VocÍ escolhe se esconder embaixo da neve.";
-                    cout<<endl<<"  VocÍ escolhe se esconder embaixo da neve. VocÍ comeu pouco pela falta de mantimentos\n e nem se quer parou para descansar. A fraqueza o levou a um choque tÈrmico.";
-                    cout<<endl<<"\n VocÍ morre soterrado onde se escondeu.";
+                    cout<<endl<<"  Voc√™ escolhe se esconder embaixo da neve.";
+                    cout<<endl<<"  Voc√™ escolhe se esconder embaixo da neve. Voc√™ comeu pouco pela falta de mantimentos\n e nem se quer parou para descansar. A fraqueza o levou a um choque t√©rmico.";
+                    cout<<endl<<"\n Voc√™ morre soterrado onde se escondeu.";
                     return 0;}
                 }
             }
 //1.2 - TERRENO PLANO
         else{
-            cout<<endl<<"  VocÍ escolhe ir pelo terreno plano. Seguindo em direÁ„o atÈ a parte alta da montanha.";
-            cout<<endl<<"  VocÍ segue tranquilamente em um caminho quase que esculpido pelos ventos das \n montanhas. E de enquanto caminhava encontra um pequeno vilarejo. Os morados \n os avistam de longe, porÈm n„o parecem ser muito agrad·veis. VocÍ tem apenas \n alguns mantimentos:";
-            cout<<endl<<"  A opÁ„o 1 seria parar e se informar no vilarejo. A opÁ„o 2 seria seguir direto por conta da hostilidade dos moradores.";
-            cout<<endl<<"\n Digite a opÁ„o: ";
+            cout<<endl<<"  Voc√™ escolhe ir pelo terreno plano. Seguindo em dire√ß√£o at√© a parte alta da montanha.";
+            cout<<endl<<"  Voc√™ segue tranquilamente em um caminho quase que esculpido pelos ventos das \n montanhas. E de enquanto caminhava encontra um pequeno vilarejo. Os morados \n os avistam de longe, por√©m n√£o parecem ser muito agrad√°veis. Voc√™ tem apenas \n alguns mantimentos:";
+            cout<<endl<<"  A op√ß√£o 1 seria parar e se informar no vilarejo. A op√ß√£o 2 seria seguir direto por conta da hostilidade dos moradores.";
+            cout<<endl<<"\n Digite a op√ß√£o: ";
             cin>> num;
 //2.1 - PARA NO VILAREJO
             if (num==1){
-                cout<<endl<<"  VocÍ escolhe parar no vilarejo e se informar sobre a montanha.";
-                cout<<endl<<"  VocÍ se engana sobre o povoado do vilarejo, o recebem muito bem. Quando vocÍ \n pergunta sobre a montanha, eles dizem em meio a algumas antigas histÛrias que o \n espÌrito de um Cavaleiro muito poderoso, O Cavaleiro do Inverno, que defende os \n animais selvagens que ali habitam, e que isso as vezes atÈ atrapalha eles para \n conseguir alimentos. Ent„o apÛs o lÌder ouvir o que vocÍ buscava ali, oferece a vocÍ \n uma arma poderosa, forjada com matÈrias conhecidos apenas por eles, O Cajado do Fogo Verdadeiro,\n mas vocÍ entrar· em divida com eles e futuramente ter· que pagar pelo cajado.";
-                cout<<endl<<"  A opÁ„o 1 aceitar a oferta e a opÁ„o 2 recusar a oferta e n„o ter nenhuma dÌvida com eles.";
-                cout<<endl<<"\n Digite a opÁ„o: ";
+                cout<<endl<<"  Voc√™ escolhe parar no vilarejo e se informar sobre a montanha.";
+                cout<<endl<<"  Voc√™ se engana sobre o povoado do vilarejo, o recebem muito bem. Quando voc√™ \n pergunta sobre a montanha, eles dizem em meio a algumas antigas hist√≥rias que o \n esp√≠rito de um Cavaleiro muito poderoso, O Cavaleiro do Inverno, que defende os \n animais selvagens que ali habitam, e que isso as vezes at√© atrapalha eles para \n conseguir alimentos. Ent√£o ap√≥s o l√≠der ouvir o que voc√™ buscava ali, oferece a voc√™ \n uma arma poderosa, forjada com mat√©rias conhecidos apenas por eles, O Cajado do Fogo Verdadeiro,\n mas voc√™ entrar√° em divida com eles e futuramente ter√° que pagar pelo cajado.";
+                cout<<endl<<"  A op√ß√£o 1 aceitar a oferta e a op√ß√£o 2 recusar a oferta e n√£o ter nenhuma d√≠vida com eles.";
+                cout<<endl<<"\n Digite a op√ß√£o: ";
                 cin>> num;
 //3.1 - ACEITAR OFERTA
                 if(num==1){
                     cajado_fogo_verdadeiro=true;
-                    cout<<endl<<"  VocÍ aceita a oferta e ter· que pagar pelo cajado futuramente.";
+                    cout<<endl<<"  Voc√™ aceita a oferta e ter√° que pagar pelo cajado futuramente.";
                     }
-// 3.2 - N√O ACEITAR A OFERTA
+// 3.2 - N√ÉO ACEITAR A OFERTA
                 else{
                     cajado_fogo_verdadeiro=false;
-                    cout<<endl<<"  VocÍ escolhe recusar para n„o ter sem nenhuma divida.";
+                    cout<<endl<<"  Voc√™ escolhe recusar para n√£o ter sem nenhuma divida.";
                     }
 //SEGUINDO A VIAGEM
-                    cout<<endl<<"  VocÍ agradece a hospitalidade e segue sua viagem. Revigorado pelo descanso que\n conseguiu ter no vilarejo. Em instantes vocÍ chega prÛximo ao topo da montanha e\n finalmente encontra um montante de espÌritos da nave. S„o como bolas de neves \n flutuantes, seu valor provÈm da baixa temperatura que emite de seu corpo. No ver„o\n custam fortunas para resfriar os lares. VocÍ coleta algumas dezenas e coloca em\n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma\n avalanche vindo em sua direÁ„o. ";
-                    cout<<endl<<"\n  VocÍ pode escolher a opÁ„o 1 que È ficar e utilizar magia de fogo para conter a neve ou a opÁ„o 2 que È correr.";
-                    cout<<endl<<"\n  Digite a opÁ„o: ";
+                    cout<<endl<<"  Voc√™ agradece a hospitalidade e segue sua viagem. Revigorado pelo descanso que\n conseguiu ter no vilarejo. Em instantes voc√™ chega pr√≥ximo ao topo da montanha e\n finalmente encontra um montante de esp√≠ritos da nave. S√£o como bolas de neves \n flutuantes, seu valor prov√©m da baixa temperatura que emite de seu corpo. No ver√£o\n custam fortunas para resfriar os lares. Voc√™ coleta algumas dezenas e coloca em\n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma\n avalanche vindo em sua dire√ß√£o. ";
+                    cout<<endl<<"\n  Voc√™ pode escolher a op√ß√£o 1 que √© ficar e utilizar magia de fogo para conter a neve ou a op√ß√£o 2 que √© correr.";
+                    cout<<endl<<"\n  Digite a op√ß√£o: ";
                     cin>> num;
 //4.1 - CONTER A NEVE
                     if(num==1){
-                        cout<<endl<<"  VocÍ escolhe utilizar sua magia de fogo para conter a neve.";
-                        cout<<endl<<"  VocÍ utiliza a sua magia de fogo para conter a neve. VocÍ conseguiu conter \n a avalanche. Em meio ao vapor criado do calor e do frio surge uma figura com uma \npresenÁa inabal·vel. … o Cavaleiro do Inverno que as pessoas do vilarejo falaram. \nEle est· protegendo os EspÌritos da Neve. VocÍ sabe o que ele quer, mas tem duas \nopÁıes: ";
-                        cout<<endl<<"  A opÁ„o 1 È levantar o seu cajado e atacar com sua magia poderosa. A opÁ„o 2 È se reverenciar, pedir perd„o por qualquer coisa que tenha feito\ne pedir permiss„o para ir embora.";
-                        cout<<endl<<"\n Digite a opÁ„o: ";
+                        cout<<endl<<"  Voc√™ escolhe utilizar sua magia de fogo para conter a neve.";
+                        cout<<endl<<"  Voc√™ utiliza a sua magia de fogo para conter a neve. Voc√™ conseguiu conter \n a avalanche. Em meio ao vapor criado do calor e do frio surge uma figura com uma \npresen√ßa inabal√°vel. √â o Cavaleiro do Inverno que as pessoas do vilarejo falaram. \nEle est√° protegendo os Esp√≠ritos da Neve. Voc√™ sabe o que ele quer, mas tem duas \nop√ß√µes: ";
+                        cout<<endl<<"  A op√ß√£o 1 √© levantar o seu cajado e atacar com sua magia poderosa. A op√ß√£o 2 √© se reverenciar, pedir perd√£o por qualquer coisa que tenha feito\ne pedir permiss√£o para ir embora.";
+                        cout<<endl<<"\n Digite a op√ß√£o: ";
                         cin>> num;
 //5.1 - LUTAR CONTRA O CAVALEIRO
                         if(num==1){
 // COM O CAJADO
                             if(cajado_fogo_verdadeiro==true){
-                                cout<<endl<<"  VocÍ escolhe levantar o seu Cajado do Fogo Verdadeiro e ataca com sua magia poderosa.";
-                                cout<<endl<<"  VocÍ ataca com a magia de Fogo Verdadeiro, o Cavaleiro n„o resiste\n ao poder e desaparece em meio ao vapor. Ent„o vocÍ recolhe um pouco mais\n de espiritos da neve para pagar sua dÌvida e desce em direÁ„o\n ao vilarejo para assim ir para a cidade da casa da guilda. ";
-                                cout<<endl<<"\n VocÍ vence e consegue dinheiro ao vender os espÌritos na casa da guilda.";
+                                cout<<endl<<"  Voc√™ escolhe levantar o seu Cajado do Fogo Verdadeiro e ataca com sua magia poderosa.";
+                                cout<<endl<<"  Voc√™ ataca com a magia de Fogo Verdadeiro, o Cavaleiro n√£o resiste\n ao poder e desaparece em meio ao vapor. Ent√£o voc√™ recolhe um pouco mais\n de espiritos da neve para pagar sua d√≠vida e desce em dire√ß√£o\n ao vilarejo para assim ir para a cidade da casa da guilda. ";
+                                cout<<endl<<"\n Voc√™ vence e consegue dinheiro ao vender os esp√≠ritos na casa da guilda.";
                                 return 0;}
 // SEM O CAJADO
                             else{
-                                cout<<endl<<"  VocÍ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
-                                cout<<endl<<"  VocÍ ataca com uma poderosa magia de fogo, em meio as labaredas surge\n o Cavaleiro em uma velocidade sobre humana e corta sua cabeÁa.";
-                                cout<<endl<<"\n VocÍ morre decapitado.";
+                                cout<<endl<<"  Voc√™ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
+                                cout<<endl<<"  Voc√™ ataca com uma poderosa magia de fogo, em meio as labaredas surge\n o Cavaleiro em uma velocidade sobre humana e corta sua cabe√ßa.";
+                                cout<<endl<<"\n Voc√™ morre decapitado.";
                                 return 0;}
                             }
 // 5.2 - SE REVERENCIAR
                         else{
-                        cout<<endl<<"  VocÍ escolhe se reverenciar, pedir perd„o por qualquer coisa que tenha feito e pedir permiss„o para ir embora.";
-                        cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, vocÍ solta os espÌritos e ele\n permite vocÍ para ir embora apenas com o que È seu. VocÍ desce a montanha em\n direÁ„o a cidade da casa da guilda. VocÍ continua vivo, mas sem os espÌritos da\n neve para vender.";
-                        cout<<endl<<"\n VocÍ vence por conseguir sair vivo mas endividado com o povoado do vilarejo.";
+                        cout<<endl<<"  Voc√™ escolhe se reverenciar, pedir perd√£o por qualquer coisa que tenha feito e pedir permiss√£o para ir embora.";
+                        cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, voc√™ solta os esp√≠ritos e ele\n permite voc√™ para ir embora apenas com o que √© seu. Voc√™ desce a montanha em\n dire√ß√£o a cidade da casa da guilda. Voc√™ continua vivo, mas sem os esp√≠ritos da\n neve para vender.";
+                        cout<<endl<<"\n Voc√™ vence por conseguir sair vivo mas endividado com o povoado do vilarejo.";
                         return 0;}
                         }
 //4.2 - CORRER
                     else{
-                        cout<<endl<<"  VocÍ escolhe correr o mais r·pido possÌvel.";
-                        cout<<endl<<"  Ao correr o mais r·pido possÌvel, o estrondo se aproximou rapidamente.\n No meio da sua corrida vocÍ È apunhalado nas costas.";
-                        cout<<endl<<"\n VocÍ morreu apunhalado.";
+                        cout<<endl<<"  Voc√™ escolhe correr o mais r√°pido poss√≠vel.";
+                        cout<<endl<<"  Ao correr o mais r√°pido poss√≠vel, o estrondo se aproximou rapidamente.\n No meio da sua corrida voc√™ √© apunhalado nas costas.";
+                        cout<<endl<<"\n Voc√™ morreu apunhalado.";
                         return 0;}
                 }
-//2.2 - N√O PARAR NO VILAREJO
+//2.2 - N√ÉO PARAR NO VILAREJO
             else{
-                cout<<endl<<"  VocÍ segue sua viajem sem parar no vilarejo.";
-                cout<<endl<<"  Por n„o ter muita comida nem descansar vocÍ est· um pouco cansado ent„o parece\n que a viajem demora mais, no meio de sua caminhada vocÍ se depara com gritos de\n socorro, quando avista em meio a neve caindo uma pessoa na beira do penhasco. …\n difÌcil de enxerga qual a situaÁ„o da pessoa, que parece estar pendurada. VocÍ tem duas opÁıes: ";
-                cout<<endl<<"  A opÁ„o 1 È seguir sua viajem, a opÁ„o 2 È ent„o ajudar a pessoa que est· a pedindo ajuda.";
-                cout<<endl<<"\n Digite a opÁ„o: ";
+                cout<<endl<<"  Voc√™ segue sua viajem sem parar no vilarejo.";
+                cout<<endl<<"  Por n√£o ter muita comida nem descansar voc√™ est√° um pouco cansado ent√£o parece\n que a viajem demora mais, no meio de sua caminhada voc√™ se depara com gritos de\n socorro, quando avista em meio a neve caindo uma pessoa na beira do penhasco. √â\n dif√≠cil de enxerga qual a situa√ß√£o da pessoa, que parece estar pendurada. Voc√™ tem duas op√ß√µes: ";
+                cout<<endl<<"  A op√ß√£o 1 √© seguir sua viajem, a op√ß√£o 2 √© ent√£o ajudar a pessoa que est√° a pedindo ajuda.";
+                cout<<endl<<"\n Digite a op√ß√£o: ";
                 cin>> num;
 // 3.1 - SEGUIR VIAGEM
                 if(num==1){
-                    cout<<endl<<"  VocÍ escolhe seguir sua viajem.";
-                    cout<<endl<<"  Acaba ficando cada vez mais tarde, o frio no da montanha n„o È nem um pouco\n aconchegante, e vocÍ avista uma cadeia de nuvens que ira se tornar\n uma nevasca. Ent„o o mago deve fazer uma difÌcil decis„o: ";
-                    cout<<endl<<"  A opÁ„o 1 È armar abrigo e repousar atÈ a manh„ seguinte. E a opÁ„o 2 È vocÍ continuar.";
-                    cout<<endl<<"\n Digite a opÁ„o: ";
+                    cout<<endl<<"  Voc√™ escolhe seguir sua viajem.";
+                    cout<<endl<<"  Acaba ficando cada vez mais tarde, o frio no da montanha n√£o √© nem um pouco\n aconchegante, e voc√™ avista uma cadeia de nuvens que ira se tornar\n uma nevasca. Ent√£o o mago deve fazer uma dif√≠cil decis√£o: ";
+                    cout<<endl<<"  A op√ß√£o 1 √© armar abrigo e repousar at√© a manh√£ seguinte. E a op√ß√£o 2 √© voc√™ continuar.";
+                    cout<<endl<<"\n Digite a op√ß√£o: ";
                     cin>> num;
 // 4.2 - MONTAR ABRIGO
                     if(num==1){
-                        cout<<endl<<"  VocÍ escolhe montar um abrigo e repousar atÈ a manh„ seguinte.";
-                        cout<<endl<<"  A noite passa tranquila, o sol resplandece no horizonte em uma vista estonteante\n prÛximo ao topo da montanha. VocÍ chega prÛximo ao topo da montanha e\n finalmente encontra um montante de espÌritos da nave. S„o como bolas de neves\n flutuantes, seu valor provÈm da baixa temperatura que emite de seu corpo. No ver„o\n custam fortunas para resfriar os lares. VocÍ coleta algumas dezenas e coloca em\n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma\n avalanche vinda em sua direÁ„o. VocÍ pode escolher entre:";
-                        cout<<endl<<"  A opÁ„o 1 que È correr ou a opÁ„o 2 ficar e utilizar magia de fogo para conter a neve.";
-                        cout<<endl<<"\n Digite a opÁ„o: ";
+                        cout<<endl<<"  Voc√™ escolhe montar um abrigo e repousar at√© a manh√£ seguinte.";
+                        cout<<endl<<"  A noite passa tranquila, o sol resplandece no horizonte em uma vista estonteante\n pr√≥ximo ao topo da montanha. Voc√™ chega pr√≥ximo ao topo da montanha e\n finalmente encontra um montante de esp√≠ritos da nave. S√£o como bolas de neves\n flutuantes, seu valor prov√©m da baixa temperatura que emite de seu corpo. No ver√£o\n custam fortunas para resfriar os lares. Voc√™ coleta algumas dezenas e coloca em\n algumas bolsas. Ouve um grande estrondo e avista mais ao topo da montanha uma\n avalanche vinda em sua dire√ß√£o. Voc√™ pode escolher entre:";
+                        cout<<endl<<"  A op√ß√£o 1 que √© correr ou a op√ß√£o 2 ficar e utilizar magia de fogo para conter a neve.";
+                        cout<<endl<<"\n Digite a op√ß√£o: ";
                         cin>> num;
 // 5.1 - CORRER
                         if(num==1){
-                            cout<<endl<<"  VocÍ escolhe correr o mais r·pido possÌvel.";
-                            cout<<endl<<"  Ao correr o mais r·pido possÌvel, o estrondo se aproximou rapidamente. No meio da sua corrida vocÍ È apunhalado nas costas.";
-                            cout<<endl<<"\n VocÍ morreu.";
+                            cout<<endl<<"  Voc√™ escolhe correr o mais r√°pido poss√≠vel.";
+                            cout<<endl<<"  Ao correr o mais r√°pido poss√≠vel, o estrondo se aproximou rapidamente. No meio da sua corrida voc√™ √© apunhalado nas costas.";
+                            cout<<endl<<"\n Voc√™ morreu.";
                             return 0;}
 // 5.2 - UTILIZAR MAGIA DE FOGO
                         else{
-                            cout<<endl<<"  VocÍ escolhe utilizar sua magia de fogo para conte a neve.";
-                            cout<<endl<<"  VocÍ utiliza a magia de fogo para conter a neve. VocÍ conseguiu conter\n a avalanche, em meio ao vapor criado do calor e do frio surge\n uma figura com uma ,presenÁa inabal·vel. Amedrontado vocÍ tem duas opÁıes: ";
-                            cout<<endl<<"  A opÁ„o 1 È se reverenciar, pedir perd„o por qualquer coisa que tenha feito\n e pedir permiss„o para ir embora. A opÁ„o 2 È levantar o seu cajado e atacar com sua magia poderosa.";
-                            cout<<endl<<"\n Digite a opÁ„o: ";
+                            cout<<endl<<"  Voc√™ escolhe utilizar sua magia de fogo para conte a neve.";
+                            cout<<endl<<"  Voc√™ utiliza a magia de fogo para conter a neve. Voc√™ conseguiu conter\n a avalanche, em meio ao vapor criado do calor e do frio surge\n uma figura com uma ,presen√ßa inabal√°vel. Amedrontado voc√™ tem duas op√ß√µes: ";
+                            cout<<endl<<"  A op√ß√£o 1 √© se reverenciar, pedir perd√£o por qualquer coisa que tenha feito\n e pedir permiss√£o para ir embora. A op√ß√£o 2 √© levantar o seu cajado e atacar com sua magia poderosa.";
+                            cout<<endl<<"\n Digite a op√ß√£o: ";
                             cin>> num;
 // 6.1 - REVERENCIAR
                             if (num==1){
-                                cout<<endl<<"  VocÍ escolhe se reverenciar, pedir perd„o por qualquer coisa que tenha feito e pedir permiss„o para ir embora.";
-                                cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, pede para\n soltar os espÌritos e o permite ir embora apenas com o que È seu.\n VocÍ desce a montanha em direÁ„o a cidade da casa da guilda.";
-                                cout<<endl<<"\n VocÍ vence por conseguir sair vivo mas sem espÌritos da neve para vender.";
+                                cout<<endl<<"  Voc√™ escolhe se reverenciar, pedir perd√£o por qualquer coisa que tenha feito e pedir permiss√£o para ir embora.";
+                                cout<<endl<<"  Ele aceita sua reverencia como pedido de desculpas, pede para\n soltar os esp√≠ritos e o permite ir embora apenas com o que √© seu.\n Voc√™ desce a montanha em dire√ß√£o a cidade da casa da guilda.";
+                                cout<<endl<<"\n Voc√™ vence por conseguir sair vivo mas sem esp√≠ritos da neve para vender.";
                                 return 0;}
 // 6.2 - LUTAR CONTRA CAVALEIRO
                             else{
-                                cout<<endl<<"  VocÍ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
-                                cout<<endl<<"  VocÍ ataca com uma poderosa magia de fogo, em meio as labaredas surgem\n a figura em uma velocidade sobre humana e corta sua cabeÁa.";
-                                cout<<endl<<"\n VocÍ morre decapitado.";
+                                cout<<endl<<"  Voc√™ escolhe levantar o seu cajado e atacar com sua magia poderosa.";
+                                cout<<endl<<"  Voc√™ ataca com uma poderosa magia de fogo, em meio as labaredas surgem\n a figura em uma velocidade sobre humana e corta sua cabe√ßa.";
+                                cout<<endl<<"\n Voc√™ morre decapitado.";
                                 return 0;}
                             }
                         }
 // 4.2 - CONTINUAR VIAGEM
                     else{
-                        cout<<endl<<"  VocÍ escolhe continuar.";
-                        cout<<endl<<"  Ao continuar iniciou uma forte nevasca, sem conseguir enxergar por conta dos ventos\n cortantes, vocÍ fica sem conseguir sair de onde est· e o frio o consome por completo.";
-                        cout<<endl<<"\n VocÍ morre de frio.";
+                        cout<<endl<<"  Voc√™ escolhe continuar.";
+                        cout<<endl<<"  Ao continuar iniciou uma forte nevasca, sem conseguir enxergar por conta dos ventos\n cortantes, voc√™ fica sem conseguir sair de onde est√° e o frio o consome por completo.";
+                        cout<<endl<<"\n Voc√™ morre de frio.";
                         return 0;}
                     }
 // 3.2 - AJUDAR A PESSOA
                 else{
-                    cout<<endl<<"  VocÍ escolhe ajudar a pessoa.";
-                    cout<<endl<<"  … difÌcil enxergar por conta da espessa neve, porÈm vocÍ consegue se guiar pelo grito\n da pessoa por socorro, vocÍ chega perto, e quando vÍ j· È tarde demais. S„o\n Sereias das Neves. Utilizam a ideia de ser um chamariz para atrair herÛis\n para sua armadilha. Ela o agarra e arranca seus membros com sua boca larga e dentes afiados. ";
-                    cout<<endl<<"\n VocÍ morreu para uma sereia das neves.";
+                    cout<<endl<<"  Voc√™ escolhe ajudar a pessoa.";
+                    cout<<endl<<"  √â dif√≠cil enxergar por conta da espessa neve, por√©m voc√™ consegue se guiar pelo grito\n da pessoa por socorro, voc√™ chega perto, e quando v√™ j√° √© tarde demais. S√£o\n Sereias das Neves. Utilizam a ideia de ser um chamariz para atrair her√≥is\n para sua armadilha. Ela o agarra e arranca seus membros com sua boca larga e dentes afiados. ";
+                    cout<<endl<<"\n Voc√™ morreu para uma sereia das neves.";
                     return 0;}
                 }
             }
@@ -214,172 +214,172 @@ int main()
     }
 
 
-    //INÕCIO DA HIST”RIA 2
+    //IN√çCIO DA HIST√ìRIA 2
     if (num == 2){
         cout << endl << " ---------------------------------------------------------------------------------------------   ";
-    cout << endl << " ApÛs selecionar a miss„o mÈdia, vocÍ fala com o lÌder da guilda e aceita a miss„o de Escoltar o MarquÍs Eliot de volta ao castelo do Reino de Freljord.";
-    cout << endl << " Ele o orienta a ser cauteloso, visto que o MarquÍs de 17 anos È filho de Eratus, um renomado Lorde do reino.";
-    cout << endl << " VocÍ tambÈm deve concluir a miss„o em um dia, caso contr·rio, receber· metade do valor acordado.";
-    cout << endl << " - Alguma vez falhei em alguma miss„o Bjork? - VocÍ diz ao chefe da guilda. O mesmo gargalha e concorda com a cabeÁa.";
-    //comeÁo da miss„o
+    cout << endl << " Ap√≥s selecionar a miss√£o m√©dia, voc√™ fala com o l√≠der da guilda e aceita a miss√£o de Escoltar o Marqu√™s Eliot de volta ao castelo do Reino de Freljord.";
+    cout << endl << " Ele o orienta a ser cauteloso, visto que o Marqu√™s de 17 anos √© filho de Eratus, um renomado Lorde do reino.";
+    cout << endl << " Voc√™ tamb√©m deve concluir a miss√£o em um dia, caso contr√°rio, receber√° metade do valor acordado.";
+    cout << endl << " - Alguma vez falhei em alguma miss√£o Bjork? - Voc√™ diz ao chefe da guilda. O mesmo gargalha e concorda com a cabe√ßa.";
+    //come√ßo da miss√£o
 
-    cout << endl << " O dia amanhace, vocÍ arruma seus mantimentos e parte.";
-    cout << endl << " A estrada È calma, e sem imprevistos ou surpresas desagrad·veis, vocÍ chega ao local marcado no contrato e entrega";
-    cout << endl << " uma t˙nica ao MarquÍs, que a recebe com relut‚ncia.";
-    cout << endl << " - Porque eu deveria usar isso? - Pergunta o MarquÍs curioso.";
-    cout << endl << " - A estrada de volta È incerta, seja quem formos encontrar no caminho, sabe que o valor agregado a um MarquÍs È alto.";
-    cout << endl << " - E o valor agregado a um renomado mago? - Retruca Eliot, que ao ver vocÍ tambÈm colocando uma t˙nica, se cala.";
-    cout << endl << " - Preocupe-se consigo e faÁa oque eu mandar, as coisas aqui s„o diferentes do que dentro de um castelo.";
-    cout << endl << "  O marquÍs concorda com a cabeÁa e veste a t˙nica, que o cobre quase por completo.";
-    cout << endl << " VocÍs iniciam a viagem, o tempo est· fechado, e o sol em cima de vocÍs reluta em aparecer.";
-    cout << endl << " Durante todo o percurso o jovem lhe faz v·rias perguntas, das quais vocÍ desconversa.";
-    cout << endl << " - VocÍs s„o todos assim? - Pergunta Eliot, em um tom mais alto do que o usado anteriormente.";
-    cout << endl << " - Assim, como? - VocÍ responde.";
-    cout << endl << " - Poucas palavras, misteriosos, frios... de certa forma. - Responde o MarquÍs.";
-    cout << endl << " - N„o somos pagos para conversar.";
-    cout << endl << " - … claro que n„o. - Responde o jovem cabisbaixo.";
-    cout << endl << " VocÍs caminham por um tempo, atÈ chegar ao Ìnicio da Grande Ponte Rinfih, um centro de transaÁıes e vendas, infestado de mercantes, mercen·rios e pessoas perigosas. Um caminho do qual vocÍ conhece bem.";
-    cout << endl << " Antes mesmo de chegarem a seu inÌcio, j· È possÌvel escutar as pessoas gritando, anunciando produtos, rindo e conversando.";
-    cout << endl << " - N„o pare de me seguir, n„o converse com ninguÈm, e principalmente, n„o retire o capuz da t˙nica, n„o importa oque aconteÁa. - VocÍ fala seriamente, Eliot concorda com a cabeÁa.";
-    cout << endl << " Nesta ponte sem leis, tudo È comercializado, desde armas e escudos roubados a feitiÁos de afeiÁ„o.";
-    cout << endl << " VocÍs caminham lentamente para n„o levantar suspeitas, com a cabeÁa baixa vocÍ apenas ouve as pessoas anunciando seus produtos ao seu redor e os trovıes acima da sua cabeÁa.";
-    cout << endl << " - Procurando por algum feitiÁo jovem meu jovem? - Anuncia uma mulher em frente a sua tenda.";
-    cout << endl << " - Escolha uma espada para se proteger - Comenta outro senhor, t„o magro quanto a espada que anunciar·.";
+    cout << endl << " O dia amanhace, voc√™ arruma seus mantimentos e parte.";
+    cout << endl << " A estrada √© calma, e sem imprevistos ou surpresas desagrad√°veis, voc√™ chega ao local marcado no contrato e entrega";
+    cout << endl << " uma t√∫nica ao Marqu√™s, que a recebe com relut√¢ncia.";
+    cout << endl << " - Porque eu deveria usar isso? - Pergunta o Marqu√™s curioso.";
+    cout << endl << " - A estrada de volta √© incerta, seja quem formos encontrar no caminho, sabe que o valor agregado a um Marqu√™s √© alto.";
+    cout << endl << " - E o valor agregado a um renomado mago? - Retruca Eliot, que ao ver voc√™ tamb√©m colocando uma t√∫nica, se cala.";
+    cout << endl << " - Preocupe-se consigo e fa√ßa oque eu mandar, as coisas aqui s√£o diferentes do que dentro de um castelo.";
+    cout << endl << "  O marqu√™s concorda com a cabe√ßa e veste a t√∫nica, que o cobre quase por completo.";
+    cout << endl << " Voc√™s iniciam a viagem, o tempo est√° fechado, e o sol em cima de voc√™s reluta em aparecer.";
+    cout << endl << " Durante todo o percurso o jovem lhe faz v√°rias perguntas, das quais voc√™ desconversa.";
+    cout << endl << " - Voc√™s s√£o todos assim? - Pergunta Eliot, em um tom mais alto do que o usado anteriormente.";
+    cout << endl << " - Assim, como? - Voc√™ responde.";
+    cout << endl << " - Poucas palavras, misteriosos, frios... de certa forma. - Responde o Marqu√™s.";
+    cout << endl << " - N√£o somos pagos para conversar.";
+    cout << endl << " - √â claro que n√£o. - Responde o jovem cabisbaixo.";
+    cout << endl << " Voc√™s caminham por um tempo, at√© chegar ao √≠nicio da Grande Ponte Rinfih, um centro de transa√ß√µes e vendas, infestado de mercantes, mercen√°rios e pessoas perigosas. Um caminho do qual voc√™ conhece bem.";
+    cout << endl << " Antes mesmo de chegarem a seu in√≠cio, j√° √© poss√≠vel escutar as pessoas gritando, anunciando produtos, rindo e conversando.";
+    cout << endl << " - N√£o pare de me seguir, n√£o converse com ningu√©m, e principalmente, n√£o retire o capuz da t√∫nica, n√£o importa oque aconte√ßa. - Voc√™ fala seriamente, Eliot concorda com a cabe√ßa.";
+    cout << endl << " Nesta ponte sem leis, tudo √© comercializado, desde armas e escudos roubados a feiti√ßos de afei√ß√£o.";
+    cout << endl << " Voc√™s caminham lentamente para n√£o levantar suspeitas, com a cabe√ßa baixa voc√™ apenas ouve as pessoas anunciando seus produtos ao seu redor e os trov√µes acima da sua cabe√ßa.";
+    cout << endl << " - Procurando por algum feiti√ßo jovem meu jovem? - Anuncia uma mulher em frente a sua tenda.";
+    cout << endl << " - Escolha uma espada para se proteger - Comenta outro senhor, t√£o magro quanto a espada que anunciar√°.";
     cout << endl << " - Gostaria de uma bebida senhor? - Oferece outro mercador.";
-    cout << endl << " - Ignore-os. - VocÍ comenta a Eliot, em voz baixa.";
-    cout << endl << " VocÍs seguem adiante pela ponte, mas vocÍ se lembra que est· sem poÁıes de mana, e talvez fosse uma boa ideia reabastecer o estoque.";
-    cout << endl << " VocÍ deve escolher entre:";
-    cout << endl << " OpÁ„o 1: Parar em uma tenda de poÁıes.";
-    cout << endl << " OpÁ„o 2: Continuar a travessia.";
-    cout << endl << " Digite a opÁ„o: ";
+    cout << endl << " - Ignore-os. - Voc√™ comenta a Eliot, em voz baixa.";
+    cout << endl << " Voc√™s seguem adiante pela ponte, mas voc√™ se lembra que est√° sem po√ß√µes de mana, e talvez fosse uma boa ideia reabastecer o estoque.";
+    cout << endl << " Voc√™ deve escolher entre:";
+    cout << endl << " Op√ß√£o 1: Parar em uma tenda de po√ß√µes.";
+    cout << endl << " Op√ß√£o 2: Continuar a travessia.";
+    cout << endl << " Digite a op√ß√£o: ";
     cin >> escolha1;
         if (escolha1 == 1) {
-            cout << endl << " VocÍ segue em direÁ„o a uma mercadora que anuncia poÁıes, e faz sinal para Evelot lhe seguir.";
+            cout << endl << " Voc√™ segue em dire√ß√£o a uma mercadora que anuncia po√ß√µes, e faz sinal para Evelot lhe seguir.";
             cout << endl << " - Oque gostaria meu senhor? - Pergunta a velha senhora, cega de um olho e com um estranho sorriso no rosto.";
-            cout << endl << " - Uma poÁ„o, apenas.";
-            cout << endl << " - E para o jovem? - Pergunta a velha, olhando em direÁ„o ao jovem MarquÍs.";
-            cout << endl << " - A poÁ„o È tudo que buscamos.";
-            cout << endl << " A velha ent„o entra na tenda, voltando alguns instantes depois com dois frascos em m„os. Um contendo mana, um lÌquido azul escuro;" << endl << " e o outro, contendo um misterioso lÌquido vermelho-rubro.";
-            cout << endl << " Pegando rapidamente as moedas que vocÍ deixou em cima da mesa como pagamento, a velha estende o braÁo, lhe entregando os dois frascos.";
-            cout << endl << " - Apenas o frasco de mana. - VocÍ responde friamente.";
-            cout << endl << " - Vamos, n„o se recusa presentes de uma velha senhora. Se provar· de bom uso na hora certa." << endl << " - Suas poÁıes meu senhor. - Insiste a velha caolha, estendendo novamente o braÁo com os frascos.";
-            cout << endl << " VocÍ aceita, mas ao tentar pegar os frascos a velha os segura com mais forÁa.";
-            cout << endl << " - Tome cuidado meu senhor, magos n„o s„o bem vistos por aqui, ainda mais acompanhando pessoas..." << endl << "de tal classe. - Diz ela olhando para o jovem MarquÍs. A velha sorri e volta para dentro de sua tenda.";
-            cout << endl << " VocÍ entrega o frasco com lÌquido vermelho-rubro para o MarquÍs, que o guarda dentro de sua t˙nica, vocÍs voltam a passar pela ponte.";
-            cout << endl << " - Como ela sabia sobre mim? - Sussura Eliot, incrÈdulo.";
-            cout << endl << " - Magia escura provavelmente, a fez enchergar alÈm do que uma simples t˙nica cobre. - VocÍ responde olhando ao redor para se certificar que ninguÈm escutaria.";
-            cout << endl << " - Mas magia escura sempre vem com um preÁo, nesse caso, seu olho. - VocÍ conclui, chocando ainda mais Eliot.";
-            cout << endl << " VocÍs seguem andando, e j· no fim da ponte o tempo se fecha, o vento aumenta e a chuva comeÁa.";
-            cout << endl << " As pessoas rapidamente comeÁam a recolher seus pertences e itens de venda, vocÍs aceleram o passo, porÈm, uma forte rajada de vento sopra contra vocÍs e ambos os capuzes acabam caindo.";
-            cout << endl << " Olhando em direÁ„o a vocÍs, as pessoas comeÁam a sussurar entre sÌ.";
-            cout << endl << " - Um mago! - Cochicha um comericante.";
-            cout << endl << " - Oque este tipo de coisa faz aqui? - AlguÈm esbraveja.";
-            cout << endl << " - E... o MarquÍs? - Comenta outro comerciante.";
-            cout << endl << " VocÍ coloca o capuz novamente, Eliot faz o mesmo, acelerando o passo vocÍs finalmente concluem a travessia pela ponte, deixando os murmurinhos para tr·s," << endl << " È quando vocÍ percebe uma suspeita movimentaÁ„o em meio as ·rvores da misteriosa Floresta Catherine, que acompanha a estrada.";
-            cout << endl << " VocÍ tem duas opÁıes:";
-            cout << endl << " OpÁ„o 1: Investigar a estranha movimentaÁ„o.";
-            cout << endl << " OpÁ„o 2: Continuar no caminho.";
-            cout << endl << " Digite sua opÁ„o: ";
+            cout << endl << " - Uma po√ß√£o, apenas.";
+            cout << endl << " - E para o jovem? - Pergunta a velha, olhando em dire√ß√£o ao jovem Marqu√™s.";
+            cout << endl << " - A po√ß√£o √© tudo que buscamos.";
+            cout << endl << " A velha ent√£o entra na tenda, voltando alguns instantes depois com dois frascos em m√£os. Um contendo mana, um l√≠quido azul escuro;" << endl << " e o outro, contendo um misterioso l√≠quido vermelho-rubro.";
+            cout << endl << " Pegando rapidamente as moedas que voc√™ deixou em cima da mesa como pagamento, a velha estende o bra√ßo, lhe entregando os dois frascos.";
+            cout << endl << " - Apenas o frasco de mana. - Voc√™ responde friamente.";
+            cout << endl << " - Vamos, n√£o se recusa presentes de uma velha senhora. Se provar√° de bom uso na hora certa." << endl << " - Suas po√ß√µes meu senhor. - Insiste a velha caolha, estendendo novamente o bra√ßo com os frascos.";
+            cout << endl << " Voc√™ aceita, mas ao tentar pegar os frascos a velha os segura com mais for√ßa.";
+            cout << endl << " - Tome cuidado meu senhor, magos n√£o s√£o bem vistos por aqui, ainda mais acompanhando pessoas..." << endl << "de tal classe. - Diz ela olhando para o jovem Marqu√™s. A velha sorri e volta para dentro de sua tenda.";
+            cout << endl << " Voc√™ entrega o frasco com l√≠quido vermelho-rubro para o Marqu√™s, que o guarda dentro de sua t√∫nica, voc√™s voltam a passar pela ponte.";
+            cout << endl << " - Como ela sabia sobre mim? - Sussura Eliot, incr√©dulo.";
+            cout << endl << " - Magia escura provavelmente, a fez enchergar al√©m do que uma simples t√∫nica cobre. - Voc√™ responde olhando ao redor para se certificar que ningu√©m escutaria.";
+            cout << endl << " - Mas magia escura sempre vem com um pre√ßo, nesse caso, seu olho. - Voc√™ conclui, chocando ainda mais Eliot.";
+            cout << endl << " Voc√™s seguem andando, e j√° no fim da ponte o tempo se fecha, o vento aumenta e a chuva come√ßa.";
+            cout << endl << " As pessoas rapidamente come√ßam a recolher seus pertences e itens de venda, voc√™s aceleram o passo, por√©m, uma forte rajada de vento sopra contra voc√™s e ambos os capuzes acabam caindo.";
+            cout << endl << " Olhando em dire√ß√£o a voc√™s, as pessoas come√ßam a sussurar entre s√≠.";
+            cout << endl << " - Um mago! - Cochicha um comerciante.";
+            cout << endl << " - Oque este tipo de coisa faz aqui? - Algu√©m esbraveja.";
+            cout << endl << " - E... o Marqu√™s? - Comenta outro comerciante.";
+            cout << endl << " Voc√™ coloca o capuz novamente, Eliot faz o mesmo, acelerando o passo voc√™s finalmente concluem a travessia pela ponte, deixando os murmurinhos para tr√°s," << endl << " √© quando voc√™ percebe uma suspeita movimenta√ß√£o em meio as √°rvores da misteriosa Floresta Catherine, que acompanha a estrada.";
+            cout << endl << " Voc√™ tem duas op√ß√µes:";
+            cout << endl << " Op√ß√£o 1: Investigar a estranha movimenta√ß√£o.";
+            cout << endl << " Op√ß√£o 2: Continuar no caminho.";
+            cout << endl << " Digite sua op√ß√£o: ";
             cin >> escolha2;
                 if (escolha2 == 1){
-                    cout << endl << " VocÍ entra na mata, Eliot ainda com o capuz o segue, vocÍs caminham por alguns minutos, a floresta est· inquieta," << endl << " e sÛ È possÌvel ouvir os sons das gotas da chuva batendo vagamente contra as folhas das ·rvores.";
-                    cout << endl << " ApÛs alguns minutos de caminhada, o silÍncio È quebrado quando Eliot È bruscamente puxado para cima, gritando desesperado em seguida.";
-                    cout << endl << " VocÍ olha para tr·s e se depara com um Knar que espreitava por entre as ·rvores. Uma espÈcie de centopÈia gigante, que se enrola em suas vÌtimas, perfurando os Ûrg„os e dilacerando impiedosamente a carne.";
-                    cout << endl << " O Knar agarra o jovem com uma de suas centenas patas, o levando para o topo da ·rvore.";
-                    cout << endl << " Rapidamente vocÍ lanÁa sua magia de fogo, queimando a ·rvore, mas o Knar È incrivelmente veloz, se movendo habilmente por entre as ·rvores.";
-                    cout << endl << " O jovem MarquÍs grita desesperado por ajuda, mas n„o h· oque se possa fazer.";
+                    cout << endl << " Voc√™ entra na mata, Eliot ainda com o capuz o segue, voc√™s caminham por alguns minutos, a floresta est√° inquieta," << endl << " e s√≥ √© poss√≠vel ouvir os sons das gotas da chuva batendo vagamente contra as folhas das √°rvores.";
+                    cout << endl << " Ap√≥s alguns minutos de caminhada, o sil√™ncio √© quebrado quando Eliot √© bruscamente puxado para cima, gritando desesperado em seguida.";
+                    cout << endl << " Voc√™ olha para tr√°s e se depara com um Knar que espreitava por entre as √°rvores. Uma esp√©cie de centop√©ia gigante, que se enrola em suas v√≠timas, perfurando os √≥rg√£os e dilacerando impiedosamente a carne.";
+                    cout << endl << " O Knar agarra o jovem com uma de suas centenas patas, o levando para o topo da √°rvore.";
+                    cout << endl << " Rapidamente voc√™ lan√ßa sua magia de fogo, queimando a √°rvore, mas o Knar √© incrivelmente veloz, se movendo habilmente por entre as √°rvores.";
+                    cout << endl << " O jovem Marqu√™s grita desesperado por ajuda, mas n√£o h√° oque se possa fazer.";
                     cout << endl << " Com um golpe certeiro, o Knar perfura o peito de Eliot com suas presas.";
-                    cout << endl << " O MarquÍs est· morto, a miss„o fracassou.";
+                    cout << endl << " O Marqu√™s est√° morto, a miss√£o fracassou.";
                 return 0;
 
                 }
 
                 if (escolha2 == 2) {
-                    cout << endl << " Sem tempo para devaneios vocÍs seguem pelo caminho, porÈm, ainda com receio sobre a suspeita movimentaÁ„o, vocÍ acha melhor manterem um passo acelerado.";
-                    cout << endl << " - N„o podemos parar agora, continue me seguindo. - VocÍ fala, acelerando ainda mais o passo.";
-                    cout << endl << " - Porque n„o podemos? Estou exausto. - Indaga o MarquÍs, j· cansado.";
-                    cout << endl << " - Acho que estamos sendo seguidos, atÈ n„o ter certeza, n„o podemos desacelerar.";
-                    cout << endl << " VocÍs caminham por mais algum tempo, atÈ uma espÈcie de clareira, e se sentam embaixo de algumas ·rvores com grandes galhos e folhas," << endl << " onde a chuva j· n„o os atinge t„o fortemente.";
-                    cout << endl << " VocÍ usa uma de suas magias para por fogo em um monte de gravetos empilhados. Eliot se senta para descansar, botando as m„os prÛximas ao fogo.";
-                    cout << endl << " ApÛs alguns minutos de descanso, a chuva antes forte, agora se resume a poucos pingos.";
-                    cout << endl << " VocÍ retira de sua bolsa duas maÁ„s e dois p„es, entregando um de cada para o MarquÍs." << endl << " Eliot come ambos os alimentos e volta a se esquentar prÛximo a fogueira que queima vivamente.";
-                    cout << endl << " Pouco tempo depois, vocÍ sente uma estranha presenÁa, vindo por entre as ·rvores que os cercam." << endl << " - Levante-se. - VocÍ diz bruscamente ao MarquÍs, que rapidamente se pıem de pÈ. Em um girar de m„os, vocÍ apaga o fogo.";
+                    cout << endl << " Sem tempo para devaneios voc√™s seguem pelo caminho, por√©m, ainda com receio sobre a suspeita movimenta√ß√£o, voc√™ acha melhor manterem um passo acelerado.";
+                    cout << endl << " - N√£o podemos parar agora, continue me seguindo. - Voc√™ fala, acelerando ainda mais o passo.";
+                    cout << endl << " - Porque n√£o podemos? Estou exausto. - Indaga o Marqu√™s, j√° cansado.";
+                    cout << endl << " - Acho que estamos sendo seguidos, at√© n√£o ter certeza, n√£o podemos desacelerar.";
+                    cout << endl << " Voc√™s caminham por mais algum tempo, at√© uma esp√©cie de clareira, e se sentam embaixo de algumas √°rvores com grandes galhos e folhas," << endl << " onde a chuva j√° n√£o os atinge t√£o fortemente.";
+                    cout << endl << " Voc√™ usa uma de suas magias para por fogo em um monte de gravetos empilhados. Eliot se senta para descansar, botando as m√£os pr√≥ximas ao fogo.";
+                    cout << endl << " Ap√≥s alguns minutos de descanso, a chuva antes forte, agora se resume a poucos pingos.";
+                    cout << endl << " Voc√™ retira de sua bolsa duas ma√ß√£s e dois p√£es, entregando um de cada para o Marqu√™s." << endl << " Eliot come ambos os alimentos e volta a se esquentar pr√≥ximo a fogueira que queima vivamente.";
+                    cout << endl << " Pouco tempo depois, voc√™ sente uma estranha presen√ßa, vindo por entre as √°rvores que os cercam." << endl << " - Levante-se. - Voc√™ diz bruscamente ao Marqu√™s, que rapidamente se p√µem de p√©. Em um girar de m√£os, voc√™ apaga o fogo.";
                     cout << endl << " - Oque aconteceu? - Pergunta o jovem, preocupado.";
                     cout << endl << " - Nos encontraram, precisamos seguir.";
-                    cout << endl << " Antes mesmo que pudesse reagir, vocÍs se veem cercados de mercen·rios, surgindo por detr·s das ·rvores.";
-                    cout << endl << " Eliot se esconde atr·s de vocÍ e ao todo vocÍ conta sete homens armados com facas e punhais.";
-                    cout << endl << " - Um mago e um marquÍs, parece que procuramos prata e achamos ouro rapazes. - Comenta um dos mercen·rios, com um sorriso no rosto.";
-                    cout << endl << " - Se tentar alguma gracinha n„o sobrar„o restos para contar histÛria. - Grita outro.";
-                    cout << endl << " Os homens comeÁam a se aproximar cada vez mais, rapidamente, prevendo o pior, vocÍ empurra Eliot no tronco onde antes vocÍs repousavam. Usando uma poderosa magia," << endl << " vocÍ bate no ch„o, fazendo com que todos a sua volta voem com o impacto, Eliot segura-se no tronco, mas acaba atingido por um dos galhos da ·rvore, que acaba caindo com seu poder.";
-                    cout << endl << " Aproveitando os inimigos atordoados, o MarquÍs corre, ainda desnorteado, por entre as ·rvores, sumindo logo em seguida.";
-                    cout << endl << " Um dos homens levanta e corre em sua direÁ„o, e vocÍ deve agir rapidamente, escolhendo entre:";
-                    cout << endl << " OpÁ„o 1: Magia de ricochete: Por um curto perÌodo, vocÍ se torna invulner·vel a ataques de armas brancas.";
-                    cout << endl << " OpÁ„o 2: Magia de fogo: Carboniza completamente o corpo dos inimigos, mas demanda tempo para canalizaÁ„o.";
-                    cout << endl << " OpÁ„o 3: Correr atr·s de Eliot.";
-                    cout << endl << " Digite a opÁ„o: ";
+                    cout << endl << " Antes mesmo que pudesse reagir, voc√™s se veem cercados de mercen√°rios, surgindo por detr√°s das √°rvores.";
+                    cout << endl << " Eliot se esconde atr√°s de voc√™ e ao todo voc√™ conta sete homens armados com facas e punhais.";
+                    cout << endl << " - Um mago e um marqu√™s, parece que procuramos prata e achamos ouro rapazes. - Comenta um dos mercen√°rios, com um sorriso no rosto.";
+                    cout << endl << " - Se tentar alguma gracinha n√£o sobrar√£o restos para contar hist√≥ria. - Grita outro.";
+                    cout << endl << " Os homens come√ßam a se aproximar cada vez mais, rapidamente, prevendo o pior, voc√™ empurra Eliot no tronco onde antes voc√™s repousavam. Usando uma poderosa magia," << endl << " voc√™ bate no ch√£o, fazendo com que todos a sua volta voem com o impacto, Eliot segura-se no tronco, mas acaba atingido por um dos galhos da √°rvore, que acaba caindo com seu poder.";
+                    cout << endl << " Aproveitando os inimigos atordoados, o Marqu√™s corre, ainda desnorteado, por entre as √°rvores, sumindo logo em seguida.";
+                    cout << endl << " Um dos homens levanta e corre em sua dire√ß√£o, e voc√™ deve agir rapidamente, escolhendo entre:";
+                    cout << endl << " Op√ß√£o 1: Magia de ricochete: Por um curto per√≠odo, voc√™ se torna invulner√°vel a ataques de armas brancas.";
+                    cout << endl << " Op√ß√£o 2: Magia de fogo: Carboniza completamente o corpo dos inimigos, mas demanda tempo para canaliza√ß√£o.";
+                    cout << endl << " Op√ß√£o 3: Correr atr√°s de Eliot.";
+                    cout << endl << " Digite a op√ß√£o: ";
                     cin >> escolha3;
                 }
                 if (escolha3 == 1) {
 
-                            cout << endl << " VocÍ opta por usar a magia de ricochete em sÌ mesmo. Os mercen·rios tentam lhe acertar, porÈm sem sucesso pois sua pele e roupa se tornaram impenetr·veis.";
-                            cout << endl << " ApÛs uma grande luta de l‚minas e magias, vocÍ derrota os mercen·rios, que agora mortos, est„o caidos ao seu redor, porÈm, vocÍ acaba esgotado. Usando o resto da mana que lhe resta," << endl << " vocÍ usa uma magia de rastreamento para encontrar Eliot, que sumiu em meio a mata.";
-                            cout << endl << " Ainda ofegante, vocÍ se concentra, sentindo uma energia fluir por entre as ·rvores. ApÛs alguns minutos de caminhada, vocÍ chega" << endl << " a uma espÈcie de caverna, e sente um pouco da energia de Eliot fluindo la dentro.";
-                            cout << endl << " Ao adentrar a caverna, sua mana acaba, o impossibilitando de seguir com o rastreamento, felizmente vocÍ tem um frasco" << endl << " de mana, que comprou na tenda da velha caolha. VocÍ bebe o frasco, e sente sua mana recuperar.";
-                            cout << endl << " Acendendo um pedaÁo de madeira com fogo m·gico, vocÍ volta ao rastreamento. ApÛs alguns minutos andando dentro da caverna, vocÍ se depara com Eliot caÌdo, mas sente algo estranho." << endl << " As chamas comeÁam a iluminar cada vez mais o ambiente, e vocÍ percebe que aquela n„o È uma simples caverna, e sim um ninho de Grogous.";
-                            cout << endl << " Pequenos e irritantes monstros que andam em bando, saindo apenas a noite para caÁar e dormindo durante todo o dia.";
-                            cout << endl << " VocÍ se mantem em silÍncio, e caminha lentamente em direÁ„o ao MarquÍs, que segue desmaiado.";
-                            cout << endl << " Ao se aproximar, Eliot acorda bruscamente, e com um grito assustado, acorda o mini exÈrcito de Grogous que ali dormia.";
-                            cout << endl << " Os pequenos monstros acordam enfurecidos, e sem mana para outro grande poder, vocÍ se ve encurralado.";
-                            cout << endl << " Eliot levanta rapidamente, e um lÌquido espesso avermelhado escorre por entre sua t˙nica, mas n„o È sangue, e sim o frasco antes entregue pela velha das poÁıes.";
-                            cout << endl << " Os Grogous farejam o ar, e apÛs sentirem o cheiro do desconhecido lÌquido, comeÁam a gritar, quase como se sentissem dor," << endl << " correndo em seguida em direÁ„o a saÌda da caverna, que antes clara, agora È iluminada apenas pela lua.";
-                            cout << endl << " - Oq-Oque aconteceu? Eu achei que a gente j· era. - Comenta Eliot, ainda espantado.";
-                            cout << endl << " - Isso era Espanta Besta, uma poÁ„o difÌcil de ser encontrada, e mais ainda de ser produzida. E se n„o fosse por ela, sim, a gente j· era.";
-                            cout << endl << " VocÍ est· exaustado e est· escuro la fora agora, talvez seja melhor descansar na caverna atÈ amanhacer para recuperar as energias, lembrando que" << endl << " caso o MarquÍs seja entregue no dia seguinte, vocÍ receber· metade do valor acordado.";
-                            cout << endl << " Oque vocÍ deseja fazer?";
-                            cout << endl << " OpÁ„o 1: Passar a noite na caverna.";
-                            cout << endl << " OpÁ„o 2: Partir agora.";
-                            cout << endl << " Digite a opÁ„o: ";
+                            cout << endl << " Voc√™ opta por usar a magia de ricochete em s√≠ mesmo. Os mercen√°rios tentam lhe acertar, por√©m sem sucesso pois sua pele e roupa se tornaram impenetr√°veis.";
+                            cout << endl << " Ap√≥s uma grande luta de l√¢minas e magias, voc√™ derrota os mercen√°rios, que agora mortos, est√£o caidos ao seu redor, por√©m, voc√™ acaba esgotado. Usando o resto da mana que lhe resta," << endl << " voc√™ usa uma magia de rastreamento para encontrar Eliot, que sumiu em meio a mata.";
+                            cout << endl << " Ainda ofegante, voc√™ se concentra, sentindo uma energia fluir por entre as √°rvores. Ap√≥s alguns minutos de caminhada, voc√™ chega" << endl << " a uma esp√©cie de caverna, e sente um pouco da energia de Eliot fluindo la dentro.";
+                            cout << endl << " Ao adentrar a caverna, sua mana acaba, o impossibilitando de seguir com o rastreamento, felizmente voc√™ tem um frasco" << endl << " de mana, que comprou na tenda da velha caolha. Voc√™ bebe o frasco, e sente sua mana recuperar.";
+                            cout << endl << " Acendendo um peda√ßo de madeira com fogo m√°gico, voc√™ volta ao rastreamento. Ap√≥s alguns minutos andando dentro da caverna, voc√™ se depara com Eliot ca√≠do, mas sente algo estranho." << endl << " As chamas come√ßam a iluminar cada vez mais o ambiente, e voc√™ percebe que aquela n√£o √© uma simples caverna, e sim um ninho de Grogous.";
+                            cout << endl << " Pequenos e irritantes monstros que andam em bando, saindo apenas a noite para ca√ßar e dormindo durante todo o dia.";
+                            cout << endl << " Voc√™ se mantem em sil√™ncio, e caminha lentamente em dire√ß√£o ao Marqu√™s, que segue desmaiado.";
+                            cout << endl << " Ao se aproximar, Eliot acorda bruscamente, e com um grito assustado, acorda o mini ex√©rcito de Grogous que ali dormia.";
+                            cout << endl << " Os pequenos monstros acordam enfurecidos, e sem mana para outro grande poder, voc√™ se ve encurralado.";
+                            cout << endl << " Eliot levanta rapidamente, e um l√≠quido espesso avermelhado escorre por entre sua t√∫nica, mas n√£o √© sangue, e sim o frasco antes entregue pela velha das po√ß√µes.";
+                            cout << endl << " Os Grogous farejam o ar, e ap√≥s sentirem o cheiro do desconhecido l√≠quido, come√ßam a gritar, quase como se sentissem dor," << endl << " correndo em seguida em dire√ß√£o a sa√≠da da caverna, que antes clara, agora √© iluminada apenas pela lua.";
+                            cout << endl << " - Oq-Oque aconteceu? Eu achei que a gente j√° era. - Comenta Eliot, ainda espantado.";
+                            cout << endl << " - Isso era Espanta Besta, uma po√ß√£o dif√≠cil de ser encontrada, e mais ainda de ser produzida. E se n√£o fosse por ela, sim, a gente j√° era.";
+                            cout << endl << " Voc√™ est√° exaustado e est√° escuro la fora agora, talvez seja melhor descansar na caverna at√© amanhacer para recuperar as energias, lembrando que" << endl << " caso o Marqu√™s seja entregue no dia seguinte, voc√™ receber√° metade do valor acordado.";
+                            cout << endl << " Oque voc√™ deseja fazer?";
+                            cout << endl << " Op√ß√£o 1: Passar a noite na caverna.";
+                            cout << endl << " Op√ß√£o 2: Partir agora.";
+                            cout << endl << " Digite a op√ß√£o: ";
                             cin >> escolha4;
 
                     }            else if (escolha3 == 2) {
 
-                                    cout << endl << " VocÍ opta por usar a magia de fogo, porÈm, ao comeÁar a canalizaÁ„o, um dos mercen·rios lanÁa sua adaga, o acertando em cheio na panturilha";
-                                    cout << endl << " fazendo vocÍ cair de joelhos no ch„o, outro o esfaqueia no ombro, e vocÍ grita de dor. VocÍ tenta voltar atr·s, e lanÁar o feitiÁo de ricochete em sÌ mesmo,";
-                                    cout << endl << " porÈm ja È tarde. Um dos mercen·rios o chuta no estÙmago, vocÍ cai no ch„o, agonizando.";
-                                    cout << endl << " VocÍ morreu e Eliot desapareceu.";
-                                    cout << endl << " A miss„o fracassou.";
+                                    cout << endl << " Voc√™ opta por usar a magia de fogo, por√©m, ao come√ßar a canaliza√ß√£o, um dos mercen√°rios lan√ßa sua adaga, o acertando em cheio na panturilha";
+                                    cout << endl << " fazendo voc√™ cair de joelhos no ch√£o, outro o esfaqueia no ombro, e voc√™ grita de dor. Voc√™ tenta voltar atr√°s, e lan√ßar o feiti√ßo de ricochete em s√≠ mesmo,";
+                                    cout << endl << " por√©m ja √© tarde. Um dos mercen√°rios o chuta no est√¥mago, voc√™ cai no ch√£o, agonizando.";
+                                    cout << endl << " Voc√™ morreu e Eliot desapareceu.";
+                                    cout << endl << " A miss√£o fracassou.";
 
                                     return 0;
 
                     }            else  {
 
-                                    cout << endl << " VocÍ opta por tentar correr atr·s de Eliot, e ao adentrar na mata, o vÍ cambaleando por entre algumas ·rvores.";
-                                    cout << endl << " Antes que ele desmaiasse, vocÍ rapidamente se pıe a sua frente, fazendo com que o mesmo aterrisse em suas costas.";
-                                    cout << endl << " Com o MarquÍs desacordado em sua garupa, lutar se torna impossÌvel. VocÍ tenta se esconder entre alguns arbustos dos homens que o procuram,";
+                                    cout << endl << " Voc√™ opta por tentar correr atr√°s de Eliot, e ao adentrar na mata, o v√™ cambaleando por entre algumas √°rvores.";
+                                    cout << endl << " Antes que ele desmaiasse, voc√™ rapidamente se p√µe a sua frente, fazendo com que o mesmo aterrisse em suas costas.";
+                                    cout << endl << " Com o Marqu√™s desacordado em sua garupa, lutar se torna imposs√≠vel. Voc√™ tenta se esconder entre alguns arbustos dos homens que o procuram,";
                                     cout << endl << " mas a floresta molhada deixa evidenciada as pegadas pelos locais passados.";
-                                    cout << endl << " N„o demora atÈ vocÍs serem encontrados, um dos homens lanÁa v·rias l‚minas, uma acerta seu ombro e outra sua perna. Eliot cai, ainda desacordado.";
-                                    cout << endl << " VocÍ tenta usar um de seus poderes, mas um dos mercen·rios o segura. - VocÍ os olha furioso.";
-                                    cout << endl << " - VocÍ vem conosco, sua sorte È ter certo valor, porque eu adoraria terminar o serviÁo aqui. - Um dos mercen·rios fala" << endl << " enquanto usa uma abraÁadeira como algema em seus braÁos.";
-                                    cout << endl << " - E esse aqui, sem d˙vidas ser· de grande valor. - Diz um dos homens enquanto passa a m„o pelo rosto de Eliot.";
-                                    cout << endl << " VocÍs foram pegos e o MarquÍs foi levado.";
-                                    cout << endl << " A miss„o fracassou.";
+                                    cout << endl << " N√£o demora at√© voc√™s serem encontrados, um dos homens lan√ßa v√°rias l√¢minas, uma acerta seu ombro e outra sua perna. Eliot cai, ainda desacordado.";
+                                    cout << endl << " Voc√™ tenta usar um de seus poderes, mas um dos mercen√°rios o segura. - Voc√™ os olha furioso.";
+                                    cout << endl << " - Voc√™ vem conosco, sua sorte √© ter certo valor, porque eu adoraria terminar o servi√ßo aqui. - Um dos mercen√°rios fala" << endl << " enquanto usa uma abra√ßadeira como algema em seus bra√ßos.";
+                                    cout << endl << " - E esse aqui, sem d√∫vidas ser√° de grande valor. - Diz um dos homens enquanto passa a m√£o pelo rosto de Eliot.";
+                                    cout << endl << " Voc√™s foram pegos e o Marqu√™s foi levado.";
+                                    cout << endl << " A miss√£o fracassou.";
 
                                     return 0;
 
            }             if (escolha4 == 1) {
 
-                            cout << endl << " VocÍ opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, apÛs alguns minutos, vocÍ faz o mesmo.";
-                            cout << endl << " O dia amanhece, e vocÍs, com a energia e mana j· respectivamente recuperados, partem novamente.";
-                            cout << endl << " - Espera, eu sei onde estamos, estamos nas redondezas do castelo. - Eliot fala animado, correndo em direÁ„o a saÌda da clareira.";
-                            cout << endl << " VocÍ segue Eliot, e se depara com o castelo ao longe, caminhando para o fim da jornada. O resto da viagem È tranquila, e sem demora vocÍs chegam aos portıes do castelo.";
+                            cout << endl << " Voc√™ opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, ap√≥s alguns minutos, voc√™ faz o mesmo.";
+                            cout << endl << " O dia amanhece, e voc√™s, com a energia e mana j√° respectivamente recuperados, partem novamente.";
+                            cout << endl << " - Espera, eu sei onde estamos, estamos nas redondezas do castelo. - Eliot fala animado, correndo em dire√ß√£o a sa√≠da da clareira.";
+                            cout << endl << " Voc√™ segue Eliot, e se depara com o castelo ao longe, caminhando para o fim da jornada. O resto da viagem √© tranquila, e sem demora voc√™s chegam aos port√µes do castelo.";
                             cout << endl << " - Eu falarei com meu pai, sei que no contrato dizia que caso a escolta atrasasse o pagamento seria cortado pela metade.";
-                            cout << endl << " - N„o precisa, o contrato era especÌfico e essa foi uma decis„o que eu tomei.";
-                            cout << endl << " - Eu vivi mais experiÍncias nesses quase dois dias, do que minha vida toda dentro desse castelo. - Eliot responde, convicto.";
-                            cout << endl << " - E vocÍ quase morreu, v·rias vezes.";
-                            cout << endl << " - Sim, foi incrÌvel n„o foi?";
-                            cout << endl << " - VocÍ È doido. - VocÍ responde rindo.";
+                            cout << endl << " - N√£o precisa, o contrato era espec√≠fico e essa foi uma decis√£o que eu tomei.";
+                            cout << endl << " - Eu vivi mais experi√™ncias nesses quase dois dias, do que minha vida toda dentro desse castelo. - Eliot responde, convicto.";
+                            cout << endl << " - E voc√™ quase morreu, v√°rias vezes.";
+                            cout << endl << " - Sim, foi incr√≠vel n√£o foi?";
+                            cout << endl << " - Voc√™ √© doido. - Voc√™ responde rindo.";
                             cout << endl << " Eliot ri, se despede e entra no castelo.";
-                            cout << endl << " A miss„o foi um sucesso e vocÍ recebeu o pagamento completo.";
+                            cout << endl << " A miss√£o foi um sucesso e voc√™ recebeu o pagamento completo.";
 
                             return 0;
 
@@ -387,18 +387,18 @@ int main()
 
             }               else {
 
-                                cout << endl << " Visando o pagamento cheio da miss„o, vocÍs partem na calada da noite e com sua mana esgotada, vocÍ sÛ tem forÁas para criar uma pequena tocha, que ilumina vagamente o caminho.";
-                                cout << endl << " Seus reflexos est„o lentos, e sem conseguir enxergar direito vocÍs caminham lentamente, para n„o se perderem um do outro.";
-                                cout << endl << " Um som de algo correndo por entre as ·rvores o faz parar bruscamente, fazendo com que Eliot esbarre em vocÍ.";
+                                cout << endl << " Visando o pagamento cheio da miss√£o, voc√™s partem na calada da noite e com sua mana esgotada, voc√™ s√≥ tem for√ßas para criar uma pequena tocha, que ilumina vagamente o caminho.";
+                                cout << endl << " Seus reflexos est√£o lentos, e sem conseguir enxergar direito voc√™s caminham lentamente, para n√£o se perderem um do outro.";
+                                cout << endl << " Um som de algo correndo por entre as √°rvores o faz parar bruscamente, fazendo com que Eliot esbarre em voc√™.";
                                 cout << endl << " - Por que paramos? - Reclama Eliot, esfregando o nariz amassado.";
-                                cout << endl << " - Quieto. - VocÍ responde, fazendo sinal de silÍncio para o mesmo.";
-                                cout << endl << " O barulho se torna cada vez mais alto, e seja l· oque for, esta correndo em cÌrculos ao redor de vocÍs, quase como se estivesse brincando.";
-                                cout << endl << " VocÍ joga a tocha para frente, para tentar ver oque se esconde por entre as ·rvores, mas oque vocÍs veem È assustador, algo que atÈ mesmo vocÍ,";
-                                cout << endl << " se recusa acreditar, um Licandrogo, o lend·rio caÁador noturno, poucas pessoas realmente acreditam que ele seja real, e vocÍ, agora mais que nunca, sabe que sim.";
+                                cout << endl << " - Quieto. - Voc√™ responde, fazendo sinal de sil√™ncio para o mesmo.";
+                                cout << endl << " O barulho se torna cada vez mais alto, e seja l√° oque for, esta correndo em c√≠rculos ao redor de voc√™s, quase como se estivesse brincando.";
+                                cout << endl << " Voc√™ joga a tocha para frente, para tentar ver oque se esconde por entre as √°rvores, mas oque voc√™s veem √© assustador, algo que at√© mesmo voc√™,";
+                                cout << endl << " se recusa acreditar, um Licandrogo, o lend√°rio ca√ßador noturno, poucas pessoas realmente acreditam que ele seja real, e voc√™, agora mais que nunca, sabe que sim.";
                                 cout << endl << " Com o corpo de tigre, grandes chifres, garras afiadas e uma cauda com espinhos venenosos, a majestosa fera o encara friamente.";
-                                cout << endl << " O Licandrogo corre na direÁ„o de vocÍs dois, cravando suas grandes garras em seu peito e injetando toxinas de sua cauda em Eliot. ";
-                                cout << endl << " O MarquÍs cai em sua frente, morto, sua vis„o fica turva e tudo se apaga";
-                                cout << endl << " VocÍs morreram, a miss„o fracassou.";
+                                cout << endl << " O Licandrogo corre na dire√ß√£o de voc√™s dois, cravando suas grandes garras em seu peito e injetando toxinas de sua cauda em Eliot. ";
+                                cout << endl << " O Marqu√™s cai em sua frente, morto, sua vis√£o fica turva e tudo se apaga";
+                                cout << endl << " Voc√™s morreram, a miss√£o fracassou.";
 
 
                                 return 0;
@@ -409,99 +409,99 @@ int main()
 
 
            else {
-                cout << endl << " VocÍ opta por seguir em frente, mas o fato de estar sem poÁıes martela na sua cabeÁa.";
-                cout << endl << " A travessia È calma, mas o tempo segue fechando.";
-                cout << endl << " Faltando pouco para o fim da Grande Ponto Rinfih, as nuvens se chocam, o vento aumenta e a chuva comeÁa.";
-                cout << endl << " As pessoas rapidamente comeÁam a recolher seus pertences e itens de venda, vocÍs aceleram o passo, porÈm, uma forte rajada de vento sopra contra vocÍs e ambos os capuzes acabam caindo.";
-                cout << endl << " Olhando em direÁ„o a vocÍs, as pessoas comeÁam a sussurar entre sÌ.";
+                cout << endl << " Voc√™ opta por seguir em frente, mas o fato de estar sem po√ß√µes martela na sua cabe√ßa.";
+                cout << endl << " A travessia √© calma, mas o tempo segue fechando.";
+                cout << endl << " Faltando pouco para o fim da Grande Ponto Rinfih, as nuvens se chocam, o vento aumenta e a chuva come√ßa.";
+                cout << endl << " As pessoas rapidamente come√ßam a recolher seus pertences e itens de venda, voc√™s aceleram o passo, por√©m, uma forte rajada de vento sopra contra voc√™s e ambos os capuzes acabam caindo.";
+                cout << endl << " Olhando em dire√ß√£o a voc√™s, as pessoas come√ßam a sussurar entre s√≠.";
                 cout << endl << " - Um mago! - Cochicha um comericante.";
-                cout << endl << " - Oque este tipo de coisa faz aqui? - AlguÈm esbraveja.";
-                cout << endl << " - E... o MarquÍs? - Comenta outro comerciante.";
-                cout << endl << " VocÍ coloca o capuz novamente, Eliot faz o mesmo, acelerando o passo vocÍs finalmente concluem a travessia pela ponte, deixando os murmurinhos para tr·s," << endl << " È quando vocÍ percebe uma suspeita movimentaÁ„o em meio as ·rvores da misteriosa Floresta Catherine, que acompanha a estrada.";
-                cout << endl << " VocÍ tem duas opÁıes:";
-                cout << endl << " OpÁ„o 1: Investigar a estranha movimentaÁ„o.";
-                cout << endl << " OpÁ„o 2: Continuar no caminho.";
-                cout << endl << " Digite sua opÁ„o: ";
+                cout << endl << " - Oque este tipo de coisa faz aqui? - Algu√©m esbraveja.";
+                cout << endl << " - E... o Marqu√™s? - Comenta outro comerciante.";
+                cout << endl << " Voc√™ coloca o capuz novamente, Eliot faz o mesmo, acelerando o passo voc√™s finalmente concluem a travessia pela ponte, deixando os murmurinhos para tr√°s," << endl << " √© quando voc√™ percebe uma suspeita movimenta√ß√£o em meio as √°rvores da misteriosa Floresta Catherine, que acompanha a estrada.";
+                cout << endl << " Voc√™ tem duas op√ß√µes:";
+                cout << endl << " Op√ß√£o 1: Investigar a estranha movimenta√ß√£o.";
+                cout << endl << " Op√ß√£o 2: Continuar no caminho.";
+                cout << endl << " Digite sua op√ß√£o: ";
                 cin >> escolha2;
 
 
 
         }          if (escolha2 == 1) {
 
-                    cout << endl << " VocÍ entra na mata, Eliot ainda com o capuz o segue, vocÍs caminham por alguns minutos, a floresta est· inquieta," << endl << " e sÛ È possÌvel ouvir os sons das gotas da chuva batendo vagamente contra as folhas das ·rvores.";
-                    cout << endl << " ApÛs alguns minutos de caminhada, o silÍncio È quebrado quando Eliot È bruscamente puxado para cima, gritando desesperado em seguida.";
-                    cout << endl << " VocÍ olha para tr·s e se depara com um Knar que espreitava por entre as ·rvores. Uma espÈcie de centopÈia gigante, que se enrola em suas vÌtimas, perfurando os Ûrg„os e dilacerando impiedosamente a carne.";
-                    cout << endl << " O Knar agarra o jovem com uma de suas centenas patas, o levando para o topo da ·rvore.";
-                    cout << endl << " Rapidamente vocÍ lanÁa sua magia de fogo, queimando a ·rvore, mas o Knar È incrivelmente veloz, se movendo habilmente por entre as ·rvores.";
-                    cout << endl << " O jovem MarquÍs grita desesperado por ajuda, mas n„o h· oque se possa fazer.";
+                    cout << endl << " Voc√™ entra na mata, Eliot ainda com o capuz o segue, voc√™s caminham por alguns minutos, a floresta est√° inquieta," << endl << " e s√≥ √© poss√≠vel ouvir os sons das gotas da chuva batendo vagamente contra as folhas das √°rvores.";
+                    cout << endl << " Ap√≥s alguns minutos de caminhada, o sil√™ncio √© quebrado quando Eliot √© bruscamente puxado para cima, gritando desesperado em seguida.";
+                    cout << endl << " Voc√™ olha para tr√°s e se depara com um Knar que espreitava por entre as √°rvores. Uma esp√©cie de centop√©ia gigante, que se enrola em suas v√≠timas, perfurando os √≥rg√£os e dilacerando impiedosamente a carne.";
+                    cout << endl << " O Knar agarra o jovem com uma de suas centenas patas, o levando para o topo da √°rvore.";
+                    cout << endl << " Rapidamente voc√™ lan√ßa sua magia de fogo, queimando a √°rvore, mas o Knar √© incrivelmente veloz, se movendo habilmente por entre as √°rvores.";
+                    cout << endl << " O jovem Marqu√™s grita desesperado por ajuda, mas n√£o h√° oque se possa fazer.";
                     cout << endl << " Com um golpe certeiro, o Knar perfura o peito de Eliot com suas presas.";
-                    cout << endl << " O MarquÍs est· morto, a miss„o fracassou.";
+                    cout << endl << " O Marqu√™s est√° morto, a miss√£o fracassou.";
 
                         return 0;
 
         }               else {
 
-                            cout << endl << " Sem tempo para devaneios vocÍs seguem pelo caminho, porÈm, ainda com receio sobre a suspeita movimentaÁ„o, vocÍ acha melhor manterem um passo acelerado.";
-                            cout << endl << " - N„o podemos parar agora, continue me seguindo. - VocÍ fala, acelerando ainda mais o passo.";
-                            cout << endl << " - Porque n„o podemos? Estou exausto. - Indaga o MarquÍs, j· cansado.";
-                            cout << endl << " - Acho que estamos sendo seguidos, atÈ n„o ter certeza, n„o podemos desacelerar.";
-                            cout << endl << " VocÍs caminham por mais algum tempo, atÈ uma espÈcie de clareira, e se sentam embaixo de algumas ·rvores com grandes galhos e folhas," << endl << " onde a chuva j· n„o os atinge t„o fortemente.";
-                            cout << endl << " VocÍ usa uma de suas magias para por fogo em um monte de gravetos empilhados. Eliot se senta para descansar, botando as m„os prÛximas ao fogo.";
-                            cout << endl << " ApÛs alguns minutos de descanso, a chuva antes forte, agora se resume a poucos pingos.";
-                            cout << endl << " VocÍ retira de sua bolsa duas maÁ„s e dois p„es, entregando um de cada para o marquÍs." << endl << " Eliot come ambos os alimentos e volta a se esquentar prÛximo a fogueira que queima vivamente.";
-                            cout << endl << " Pouco tempo depois, vocÍ sente uma estranha presenÁa, vindo por entre as ·rvores que os cercam." << endl << " - Levante-se. - VocÍ diz bruscamente ao MarquÍs, que rapidamente se pıem de pÈ. Em um girar de m„os, vocÍ apaga o fogo.";
-                            cout << endl << " - Oque aconteceu? - Pergunta o MarquÍs, preocupado.";
+                            cout << endl << " Sem tempo para devaneios voc√™s seguem pelo caminho, por√©m, ainda com receio sobre a suspeita movimenta√ß√£o, voc√™ acha melhor manterem um passo acelerado.";
+                            cout << endl << " - N√£o podemos parar agora, continue me seguindo. - Voc√™ fala, acelerando ainda mais o passo.";
+                            cout << endl << " - Porque n√£o podemos? Estou exausto. - Indaga o Marqu√™s, j√° cansado.";
+                            cout << endl << " - Acho que estamos sendo seguidos, at√© n√£o ter certeza, n√£o podemos desacelerar.";
+                            cout << endl << " Voc√™s caminham por mais algum tempo, at√© uma esp√©cie de clareira, e se sentam embaixo de algumas √°rvores com grandes galhos e folhas," << endl << " onde a chuva j√° n√£o os atinge t√£o fortemente.";
+                            cout << endl << " Voc√™ usa uma de suas magias para por fogo em um monte de gravetos empilhados. Eliot se senta para descansar, botando as m√£os pr√≥ximas ao fogo.";
+                            cout << endl << " Ap√≥s alguns minutos de descanso, a chuva antes forte, agora se resume a poucos pingos.";
+                            cout << endl << " Voc√™ retira de sua bolsa duas ma√ß√£s e dois p√£es, entregando um de cada para o marqu√™s." << endl << " Eliot come ambos os alimentos e volta a se esquentar pr√≥ximo a fogueira que queima vivamente.";
+                            cout << endl << " Pouco tempo depois, voc√™ sente uma estranha presen√ßa, vindo por entre as √°rvores que os cercam." << endl << " - Levante-se. - Voc√™ diz bruscamente ao Marqu√™s, que rapidamente se p√µem de p√©. Em um girar de m√£os, voc√™ apaga o fogo.";
+                            cout << endl << " - Oque aconteceu? - Pergunta o Marqu√™s, preocupado.";
                             cout << endl << " - Nos encontraram, precisamos seguir.";
-                            cout << endl << " Antes mesmo que pudesse reagir, vocÍs se veem cercados de mercen·rios, surgindo de tr·s das ·rvores.";
-                            cout << endl << " Eliot se esconde detr·s de vocÍ e ao todo, vocÍ conta sete homens armados com facas e punhais.";
-                            cout << endl << " - Um mago e um marquÍs, parece que procuramos prata e achamos ouro rapazes. - Comenta um dos mercen·rios, com um sorriso no rosto.";
-                            cout << endl << " - Se tentar alguma gracinha n„o sobrar„o restos para contar histÛria. - Grita outro.";
-                            cout << endl << " Os homens comeÁam a se aproximar cada vez mais, rapidamente, prevendo o pior, vocÍ empurra Eliot no tronco onde antes vocÍs repousavam. Usando uma poderosa magia" << endl << " vocÍ bate no ch„o, fazendo com que todos a sua volta voem com o impacto, Eliot segura-se no tronco, mas acaba atingido por um dos galhos da ·rvore, que acaba caindo com seu poder.";
-                            cout << endl << " Aproveitando os inimigos atordoados, o MarquÍs corre, ainda desnorteado, por entre as ·rvores, sumindo logo em seguida.";
-                            cout << endl << " Um dos homens levanta e corre em sua direÁ„o, e vocÍ deve agir rapidamente, escolhendo entre:";
-                            cout << endl << " OpÁ„o 1: Magia de ricochete: Por um curto perÌodo, vocÍ se torna invulner·vel a ataques de armas brancas.";
-                            cout << endl << " OpÁ„o 2: Magia de fogo: Carboniza completamente o corpo dos inimigos, mas demanda tempo para canalizaÁ„o.";
-                            cout << endl << " OpÁ„o 3: Correr atr·s de Eliot.";
-                            cout << endl << " Digite sua opÁ„o: ";
+                            cout << endl << " Antes mesmo que pudesse reagir, voc√™s se veem cercados de mercen√°rios, surgindo de tr√°s das √°rvores.";
+                            cout << endl << " Eliot se esconde detr√°s de voc√™ e ao todo, voc√™ conta sete homens armados com facas e punhais.";
+                            cout << endl << " - Um mago e um marqu√™s, parece que procuramos prata e achamos ouro rapazes. - Comenta um dos mercen√°rios, com um sorriso no rosto.";
+                            cout << endl << " - Se tentar alguma gracinha n√£o sobrar√£o restos para contar hist√≥ria. - Grita outro.";
+                            cout << endl << " Os homens come√ßam a se aproximar cada vez mais, rapidamente, prevendo o pior, voc√™ empurra Eliot no tronco onde antes voc√™s repousavam. Usando uma poderosa magia" << endl << " voc√™ bate no ch√£o, fazendo com que todos a sua volta voem com o impacto, Eliot segura-se no tronco, mas acaba atingido por um dos galhos da √°rvore, que acaba caindo com seu poder.";
+                            cout << endl << " Aproveitando os inimigos atordoados, o Marqu√™s corre, ainda desnorteado, por entre as √°rvores, sumindo logo em seguida.";
+                            cout << endl << " Um dos homens levanta e corre em sua dire√ß√£o, e voc√™ deve agir rapidamente, escolhendo entre:";
+                            cout << endl << " Op√ß√£o 1: Magia de ricochete: Por um curto per√≠odo, voc√™ se torna invulner√°vel a ataques de armas brancas.";
+                            cout << endl << " Op√ß√£o 2: Magia de fogo: Carboniza completamente o corpo dos inimigos, mas demanda tempo para canaliza√ß√£o.";
+                            cout << endl << " Op√ß√£o 3: Correr atr√°s de Eliot.";
+                            cout << endl << " Digite sua op√ß√£o: ";
                             cin >> escolha3;
 
 
 }                                if (escolha3 == 1) {
 
-                                     cout << endl << " VocÍ opta por usar a magia de ricochete em sÌ mesmo. Os mercen·rios tentam lhe acertar, porÈm sem sucesso, pois sua pele e roupa se tornaram impenetr·veis.";
-                                     cout << endl << " ApÛs uma grande luta de l‚minas e magias, vocÍ derrota os mercen·rios, que agora mortos, est„o caidos ao seu redor, mas vocÍ acaba esgotado. Usando o resto da mana que lhe resta," << endl << " vocÍ usa uma magia de rastreamento para encontrar Eliot, que sumiu em meio a mata.";
-                                     cout << endl << " Ainda ofegante, vocÍ se concentra, sentindo uma energia fluir por entre as ·rvores. ApÛs alguns minutos de caminhada, vocÍ chega" << endl << " a uma espÈcie de caverna, e sente um pouco da energia de Eliot fluindo la dentro.";
-                                     cout << endl << " Ao adentrar a caverna, sua mana acaba, o impossibilitando de seguir com o rastreamento. O sol est· se pondo e a lua comeÁando a aparecer." << endl << " O resto da pouca luz que ilumina a caverna lhe mostra dois caminhos a seguir.";
-                                     cout << endl << " VocÍ tem duas opÁıes:";
-                                     cout << endl << " OpÁ„o 1: Tomar o caminho da esquerda.";
-                                     cout << endl << " OpÁ„o 2: Tomar o caminho da direita.";
-                                     cout << endl << " Digite sua opÁ„o: ";
+                                     cout << endl << " Voc√™ opta por usar a magia de ricochete em s√≠ mesmo. Os mercen√°rios tentam lhe acertar, por√©m sem sucesso, pois sua pele e roupa se tornaram impenetr√°veis.";
+                                     cout << endl << " Ap√≥s uma grande luta de l√¢minas e magias, voc√™ derrota os mercen√°rios, que agora mortos, est√£o caidos ao seu redor, mas voc√™ acaba esgotado. Usando o resto da mana que lhe resta," << endl << " voc√™ usa uma magia de rastreamento para encontrar Eliot, que sumiu em meio a mata.";
+                                     cout << endl << " Ainda ofegante, voc√™ se concentra, sentindo uma energia fluir por entre as √°rvores. Ap√≥s alguns minutos de caminhada, voc√™ chega" << endl << " a uma esp√©cie de caverna, e sente um pouco da energia de Eliot fluindo la dentro.";
+                                     cout << endl << " Ao adentrar a caverna, sua mana acaba, o impossibilitando de seguir com o rastreamento. O sol est√° se pondo e a lua come√ßando a aparecer." << endl << " O resto da pouca luz que ilumina a caverna lhe mostra dois caminhos a seguir.";
+                                     cout << endl << " Voc√™ tem duas op√ß√µes:";
+                                     cout << endl << " Op√ß√£o 1: Tomar o caminho da esquerda.";
+                                     cout << endl << " Op√ß√£o 2: Tomar o caminho da direita.";
+                                     cout << endl << " Digite sua op√ß√£o: ";
                                      cin >> escolha4;
 
 
                               }       else if (escolha3 == 2) {
 
-                                            cout << endl << " VocÍ opta por usar a magia de fogo, porÈm, ao comeÁar a canalizaÁ„o, um dos mercen·rios lanÁa sua adaga, o acertando em cheio na panturilha";
-                                            cout << endl << " fazendo vocÍ cair de joelhos no ch„o, outro o esfaqueia no ombro, e vocÍ grita de dor. VocÍ tenta voltar atr·s, e lanÁar o feitiÁo de ricochete em sÌ mesmo,";
-                                            cout << endl << " porÈm ja È tarde. Um dos mercen·rios o chuta no estÙmago, vocÍ cai no ch„o, agonizando.";
-                                            cout << endl << " VocÍ morreu e Eliot desapareceu.";
-                                            cout << endl << " A miss„o fracassou.";
+                                            cout << endl << " Voc√™ opta por usar a magia de fogo, por√©m, ao come√ßar a canaliza√ß√£o, um dos mercen√°rios lan√ßa sua adaga, o acertando em cheio na panturilha";
+                                            cout << endl << " fazendo voc√™ cair de joelhos no ch√£o, outro o esfaqueia no ombro, e voc√™ grita de dor. Voc√™ tenta voltar atr√°s, e lan√ßar o feiti√ßo de ricochete em s√≠ mesmo,";
+                                            cout << endl << " por√©m ja √© tarde. Um dos mercen√°rios o chuta no est√¥mago, voc√™ cai no ch√£o, agonizando.";
+                                            cout << endl << " Voc√™ morreu e Eliot desapareceu.";
+                                            cout << endl << " A miss√£o fracassou.";
 
                                            return 0;
 
 
 }                                      else {
 
-                                            cout << endl << " VocÍ opta por tentar correr atr·s de Eliot, e ao adentrar na mata, o vÍ cambaleando por entre algumas ·rvores.";
-                                            cout << endl << " Antes que ele desmaiasse, vocÍ rapidamente se pıe a sua frente, fazendo com que o mesmo aterrisse em suas costas.";
-                                            cout << endl << " Com o MarquÍs desacordado em sua garupa, lutar se torna impossÌvel. VocÍ tenta se esconder entre alguns arbustos dos homens que o procuram,";
+                                            cout << endl << " Voc√™ opta por tentar correr atr√°s de Eliot, e ao adentrar na mata, o v√™ cambaleando por entre algumas √°rvores.";
+                                            cout << endl << " Antes que ele desmaiasse, voc√™ rapidamente se p√µe a sua frente, fazendo com que o mesmo aterrisse em suas costas.";
+                                            cout << endl << " Com o Marqu√™s desacordado em sua garupa, lutar se torna imposs√≠vel. Voc√™ tenta se esconder entre alguns arbustos dos homens que o procuram,";
                                             cout << endl << " mas a floresta molhada deixa evidenciada as pegadas pelos locais passados.";
-                                            cout << endl << " N„o demora atÈ vocÍs serem encontrados, um dos homens lanÁa v·rias l‚minas, uma acerta seu ombro e outra sua perna. Eliot cai, ainda desacordado.";
-                                            cout << endl << " VocÍ tenta usar um de seus poderes, mas um dos mercen·rios o segura. - VocÍ os olha furioso.";
-                                            cout << endl << " - VocÍ vem conosco, sua sorte È ter certo valor, porque eu adoraria terminar o serviÁo aqui. - Um dos mercen·rios fala" << endl << " enquanto usa uma abraÁadeira como algema em seus braÁos.";
-                                            cout << endl << " - E esse aqui, sem d˙vidas ser· de grande valor. - Diz um dos homens enquanto passa a m„o pelo rosto de Eliot.";
-                                            cout << endl << " VocÍs foram pegos e o MarquÍs foi levado.";
-                                            cout << endl << " A miss„o fracassou.";
+                                            cout << endl << " N√£o demora at√© voc√™s serem encontrados, um dos homens lan√ßa v√°rias l√¢minas, uma acerta seu ombro e outra sua perna. Eliot cai, ainda desacordado.";
+                                            cout << endl << " Voc√™ tenta usar um de seus poderes, mas um dos mercen√°rios o segura. - Voc√™ os olha furioso.";
+                                            cout << endl << " - Voc√™ vem conosco, sua sorte √© ter certo valor, porque eu adoraria terminar o servi√ßo aqui. - Um dos mercen√°rios fala" << endl << " enquanto usa uma abra√ßadeira como algema em seus bra√ßos.";
+                                            cout << endl << " - E esse aqui, sem d√∫vidas ser√° de grande valor. - Diz um dos homens enquanto passa a m√£o pelo rosto de Eliot.";
+                                            cout << endl << " Voc√™s foram pegos e o Marqu√™s foi levado.";
+                                            cout << endl << " A miss√£o fracassou.";
 
                                                                 return 0;
 
@@ -510,77 +510,77 @@ int main()
 
        }                                 if (escolha4 == 1) {
 
-                                            cout << endl << " VocÍ toma o caminho da esquerda e retira de sua sacola uma pequena pedra m·gica, que emite uma luz fraca, porÈm ˙til.";
-                                            cout << endl << " ApÛs caminhar um pouco pelo caminho da esquerda vocÍ se depara com um cad·ver que felizmente, n„o È de Eliot.";
-                                            cout << endl << " VocÍ vasculha o corpo, em busca de mantimentos e fica feliz com oque ali encontra. Um frasco de mana e um Colar de Anatema.";
-                                            cout << endl << " Um colar poderoso, que exige um pouco de magia para ativaÁ„o. O mesmo atua como um escudo para quem o usa, contanto que a pessoa que ativou o colar esteja viva.";
-                                            cout << endl << " Ao beber o frasco de mana, vocÍ sente seu corpo ser preenchido de energia, sua mana foi restaurada.";
-                                            cout << endl << " Se concentrando no rastreamento, vocÍ sente uma fraca energia de Eliot fluir por entre a caverna. Com sua magia recuperada, vocÍ energiza o Colar de Anathema, que agora brilha fortemente.";
-                                            cout << endl << " Pegando uma tocha apagada ao lado do corpo, vocÍ a acende com seu fogo m·gico e volta a vagar pela caverna, encontrando Eliot minutos depois.";
-                                            cout << endl << " VocÍ o avista de longe, porÈm percebe que esta n„o È uma simples caverna, e sim um ninho de Grogous.";
-                                            cout << endl << " Pequenos e irritantes monstros parecidos com goblins, que andam em bando, saindo apenas a noite para caÁar e dormindo durante todo o dia.";
-                                            cout << endl << " Eles ainda est„o dormindo, vocÍ se mantem em silÍncio e caminha lentamente em direÁ„o ao MarquÍs, que segue desacordado, porÈm antes mesmo de chegar atÈ ele, os Grougos" << endl << " instintivamente acordam famintos, vocÍ passou muito tempo dentro da caverna.";
-                                            cout << endl << " VocÍ grita para Eliot, que acorda assustado.";
-                                            cout << endl << " Os pequenos monstros que cercam Eliot est„o de pÈ e o mini exÈrcito de Grogous se prepara para atacar.";
-                                            cout << endl << " Eliot desesperado, corre em sua direÁ„o, os Grogous o seguem sedentos por carne. Os monstros pulam, se lanÁando na direÁ„o do MarquÍs, e no momento em que pegariam Eliot," << endl << " vocÍ coloca o Colar de Anatema no mesmo, repelindo todos os Grogous, que, ao tentar se agarrarem no jovem, voam contra as paredes de pedra da caverna.";
-                                            cout << endl << " Os monstros levantam novamente, furiosos e com fome eles correm na direÁ„o de vocÍs dois.";
-                                            cout << endl << " VocÍ entra na frente de Eliot, canaliza e lanÁa sua magia de fogo, carbonizando todos os Grogous que ali estavam.";
-                                            cout << endl << " O MarquÍs senta no ch„o, aliviado. VocÍ o acompanha, sentando exausto a seu lado.";
+                                            cout << endl << " Voc√™ toma o caminho da esquerda e retira de sua sacola uma pequena pedra m√°gica, que emite uma luz fraca, por√©m √∫til.";
+                                            cout << endl << " Ap√≥s caminhar um pouco pelo caminho da esquerda voc√™ se depara com um cad√°ver que felizmente, n√£o √© de Eliot.";
+                                            cout << endl << " Voc√™ vasculha o corpo, em busca de mantimentos e fica feliz com oque ali encontra. Um frasco de mana e um Colar de Anatema.";
+                                            cout << endl << " Um colar poderoso, que exige um pouco de magia para ativa√ß√£o. O mesmo atua como um escudo para quem o usa, contanto que a pessoa que ativou o colar esteja viva.";
+                                            cout << endl << " Ao beber o frasco de mana, voc√™ sente seu corpo ser preenchido de energia, sua mana foi restaurada.";
+                                            cout << endl << " Se concentrando no rastreamento, voc√™ sente uma fraca energia de Eliot fluir por entre a caverna. Com sua magia recuperada, voc√™ energiza o Colar de Anathema, que agora brilha fortemente.";
+                                            cout << endl << " Pegando uma tocha apagada ao lado do corpo, voc√™ a acende com seu fogo m√°gico e volta a vagar pela caverna, encontrando Eliot minutos depois.";
+                                            cout << endl << " Voc√™ o avista de longe, por√©m percebe que esta n√£o √© uma simples caverna, e sim um ninho de Grogous.";
+                                            cout << endl << " Pequenos e irritantes monstros parecidos com goblins, que andam em bando, saindo apenas a noite para ca√ßar e dormindo durante todo o dia.";
+                                            cout << endl << " Eles ainda est√£o dormindo, voc√™ se mantem em sil√™ncio e caminha lentamente em dire√ß√£o ao Marqu√™s, que segue desacordado, por√©m antes mesmo de chegar at√© ele, os Grougos" << endl << " instintivamente acordam famintos, voc√™ passou muito tempo dentro da caverna.";
+                                            cout << endl << " Voc√™ grita para Eliot, que acorda assustado.";
+                                            cout << endl << " Os pequenos monstros que cercam Eliot est√£o de p√© e o mini ex√©rcito de Grogous se prepara para atacar.";
+                                            cout << endl << " Eliot desesperado, corre em sua dire√ß√£o, os Grogous o seguem sedentos por carne. Os monstros pulam, se lan√ßando na dire√ß√£o do Marqu√™s, e no momento em que pegariam Eliot," << endl << " voc√™ coloca o Colar de Anatema no mesmo, repelindo todos os Grogous, que, ao tentar se agarrarem no jovem, voam contra as paredes de pedra da caverna.";
+                                            cout << endl << " Os monstros levantam novamente, furiosos e com fome eles correm na dire√ß√£o de voc√™s dois.";
+                                            cout << endl << " Voc√™ entra na frente de Eliot, canaliza e lan√ßa sua magia de fogo, carbonizando todos os Grogous que ali estavam.";
+                                            cout << endl << " O Marqu√™s senta no ch√£o, aliviado. Voc√™ o acompanha, sentando exausto a seu lado.";
                                             cout << endl << " - Essa foi por pouco, muito, muito pouco. - Eliot comenta, ainda ofegante.";
-                                            cout << endl << " - VocÍ me deu mais trabalho do que eu imaginava. - VocÍ responde, t„o ofengante quanto.";
-                                            cout << endl << " VocÍs est„o cansados e est· escuro la fora agora, talvez seja melhor descansar na caverna atÈ amanhacer para recuperar as energias, lembrando que" << endl << " caso o MarquÍs seja entregue no dia seguinte, vocÍ receber· metade do valor acordado.";
-                                            cout << endl << " VocÍ deve escolher entre:";
-                                            cout << endl << " OpÁ„o 1: Partir agora.";
-                                            cout << endl << " OpÁ„o 2: Passar a noite na caverna.";
-                                            cout << endl << " Digite sua opÁ„o: ";
+                                            cout << endl << " - Voc√™ me deu mais trabalho do que eu imaginava. - Voc√™ responde, t√£o ofengante quanto.";
+                                            cout << endl << " Voc√™s est√£o cansados e est√° escuro la fora agora, talvez seja melhor descansar na caverna at√© amanhacer para recuperar as energias, lembrando que" << endl << " caso o Marqu√™s seja entregue no dia seguinte, voc√™ receber√° metade do valor acordado.";
+                                            cout << endl << " Voc√™ deve escolher entre:";
+                                            cout << endl << " Op√ß√£o 1: Partir agora.";
+                                            cout << endl << " Op√ß√£o 2: Passar a noite na caverna.";
+                                            cout << endl << " Digite sua op√ß√£o: ";
                                             cin >> escolha5;
 
 
                                     }       else {
 
-                                                cout << endl << " VocÍ opta por tomar o caminho da direita, e retira de sua sacola uma pequena pedra m·gica, que emite uma luz fraca, porÈm ˙til.";
-                                                cout << endl << " VocÍ anda por um bom tempo, mas n„o encontra Eliot, e acaba optando por retornar e tomar o outro caminho. Ao chegar na entrada da caverna" << endl << " vocÍ percebe que o sol j· se pÙs e a lua agora brilha no cÈu.";
-                                                cout << endl << " Pegando o outro caminho vocÍ finalmente encontra o jovem MarquÍs, ainda desacordado no fim da caverna, mas percebe que esta n„o È uma simples caverna, e sim um ninho de Grogous.";
-                                                cout << endl << " Pequenos e irritantes monstros parecidos com goblins, que andam em bando, saindo apenas a noite para caÁar e dormindo durante todo o dia.";
-                                                cout << endl << " Antes que pudesse fazer qualquer coisa, os Grogous acordam instintivamente, vocÍ corre em direÁ„o a Eliot, mas j· È tarde.";
-                                                cout << endl << " VocÍ perdeu muito tempo tomando o caminho errado e os Grogou devoraram Eliot.";
-                                                cout << endl << " O MarquÍs est· morto, a miss„o fracassou.";
+                                                cout << endl << " Voc√™ opta por tomar o caminho da direita, e retira de sua sacola uma pequena pedra m√°gica, que emite uma luz fraca, por√©m √∫til.";
+                                                cout << endl << " Voc√™ anda por um bom tempo, mas n√£o encontra Eliot, e acaba optando por retornar e tomar o outro caminho. Ao chegar na entrada da caverna" << endl << " voc√™ percebe que o sol j√° se p√¥s e a lua agora brilha no c√©u.";
+                                                cout << endl << " Pegando o outro caminho voc√™ finalmente encontra o jovem Marqu√™s, ainda desacordado no fim da caverna, mas percebe que esta n√£o √© uma simples caverna, e sim um ninho de Grogous.";
+                                                cout << endl << " Pequenos e irritantes monstros parecidos com goblins, que andam em bando, saindo apenas a noite para ca√ßar e dormindo durante todo o dia.";
+                                                cout << endl << " Antes que pudesse fazer qualquer coisa, os Grogous acordam instintivamente, voc√™ corre em dire√ß√£o a Eliot, mas j√° √© tarde.";
+                                                cout << endl << " Voc√™ perdeu muito tempo tomando o caminho errado e os Grogou devoraram Eliot.";
+                                                cout << endl << " O Marqu√™s est√° morto, a miss√£o fracassou.";
 
                                                 return 0;
 
 
                  }                    if (escolha5 == 1) {
 
-                                                    cout << endl << " Visando o pagamento cheio da miss„o, vocÍs partem na calada da noite e com sua mana esgotada, vocÍ sÛ tem forÁas para criar uma pequena tocha, que ilumina vagamente o caminho.";
-                                                    cout << endl << " Seus reflexos est„o lentos, e sem conseguir enxergar direito vocÍs caminham lentamente para n„o se perderem um do outro.";
-                                                    cout << endl << " Um som de algo correndo por entre as ·rvores o faz parar bruscamente, fazendo com que Eliot esbarre em vocÍ.";
+                                                    cout << endl << " Visando o pagamento cheio da miss√£o, voc√™s partem na calada da noite e com sua mana esgotada, voc√™ s√≥ tem for√ßas para criar uma pequena tocha, que ilumina vagamente o caminho.";
+                                                    cout << endl << " Seus reflexos est√£o lentos, e sem conseguir enxergar direito voc√™s caminham lentamente para n√£o se perderem um do outro.";
+                                                    cout << endl << " Um som de algo correndo por entre as √°rvores o faz parar bruscamente, fazendo com que Eliot esbarre em voc√™.";
                                                     cout << endl << " - Por que paramos? - Reclama Eliot, esfregando o nariz amassado.";
-                                                    cout << endl << " - Quieto. - VocÍ responde, fazendo sinal de silÍncio para o mesmo.";
-                                                    cout << endl << " O barulho se torna cada vez mais alto, e seja l· oque for, esta correndo em cÌrculos ao redor de vocÍs, quase como se estivesse brincando.";
-                                                    cout << endl << " VocÍ joga a tocha para frente, para tentar ver oque se esconde por entre as ·rvores, mas oque vocÍs veem È assustador, algo que atÈ mesmo vocÍ,";
-                                                    cout << endl << " se recusa acreditar, um Licandrogo, o lend·rio caÁador noturno, ser cujo poucas pessoas realmente acreditam ser real, e vocÍ agora, sabe que sim.";
+                                                    cout << endl << " - Quieto. - Voc√™ responde, fazendo sinal de sil√™ncio para o mesmo.";
+                                                    cout << endl << " O barulho se torna cada vez mais alto, e seja l√° oque for, esta correndo em c√≠rculos ao redor de voc√™s, quase como se estivesse brincando.";
+                                                    cout << endl << " Voc√™ joga a tocha para frente, para tentar ver oque se esconde por entre as √°rvores, mas oque voc√™s veem √© assustador, algo que at√© mesmo voc√™,";
+                                                    cout << endl << " se recusa acreditar, um Licandrogo, o lend√°rio ca√ßador noturno, ser cujo poucas pessoas realmente acreditam ser real, e voc√™ agora, sabe que sim.";
                                                     cout << endl << " Com o corpo de tigre, grandes chifres, garras afiadas e uma cauda com espinhos venenosos, a majestosa fera o encara friamente.";
-                                                    cout << endl << " O Licandrogo corre na direÁ„o de vocÍs dois, cravando suas grandes garras em seu peito e injetando toxinas de sua cauda em Eliot. ";
-                                                    cout << endl << " O MarquÍs cai em sua frente, morto, sua vis„o fica turva e tudo se apaga.";
-                                                    cout << endl << " VocÍs morreram, a miss„o fracassou.";
+                                                    cout << endl << " O Licandrogo corre na dire√ß√£o de voc√™s dois, cravando suas grandes garras em seu peito e injetando toxinas de sua cauda em Eliot. ";
+                                                    cout << endl << " O Marqu√™s cai em sua frente, morto, sua vis√£o fica turva e tudo se apaga.";
+                                                    cout << endl << " Voc√™s morreram, a miss√£o fracassou.";
 
                                                     return 0;
 
 
                                         }               else {
 
-                                                            cout << endl << " VocÍ opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, apÛs alguns minutos, vocÍ faz o mesmo.";
-                                                            cout << endl << " O dia amanhece, e vocÍs, com a energia e mana j· respectivamente recuperados, partem novamente.";
-                                                            cout << endl << " - Espera, eu sei onde estamos, estamos nas redondezas do castelo. - Eliot fala animado, correndo em direÁ„o a saÌda da clareira.";
-                                                            cout << endl << " VocÍ segue Eliot, e se depara com o castelo ao longe, caminhando para o fim da jornada. O resto da viagem È tranquila, e sem demora vocÍs chegam aos portıes do castelo.";
+                                                            cout << endl << " Voc√™ opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, ap√≥s alguns minutos, voc√™ faz o mesmo.";
+                                                            cout << endl << " O dia amanhece, e voc√™s, com a energia e mana j√° respectivamente recuperados, partem novamente.";
+                                                            cout << endl << " - Espera, eu sei onde estamos, estamos nas redondezas do castelo. - Eliot fala animado, correndo em dire√ß√£o a sa√≠da da clareira.";
+                                                            cout << endl << " Voc√™ segue Eliot, e se depara com o castelo ao longe, caminhando para o fim da jornada. O resto da viagem √© tranquila, e sem demora voc√™s chegam aos port√µes do castelo.";
                                                             cout << endl << " - Eu falarei com meu pai, sei que no contrato dizia que caso a escolta atrasasse o pagamento seria cortado pela metade.";
-                                                            cout << endl << " - N„o precisa, o contrato era especÌfico e essa foi uma decis„o que eu tomei.";
-                                                            cout << endl << " - Eu vivi mais experiÍncias nesses quase dois dias, do que minha vida toda dentro desse castelo. - Eliot responde, convicto.";
-                                                            cout << endl << " - E vocÍ quase morreu, v·rias vezes.";
-                                                            cout << endl << " - Sim, foi incrÌvel n„o foi?";
-                                                            cout << endl << " - VocÍ È doido. - VocÍ responde rindo.";
+                                                            cout << endl << " - N√£o precisa, o contrato era espec√≠fico e essa foi uma decis√£o que eu tomei.";
+                                                            cout << endl << " - Eu vivi mais experi√™ncias nesses quase dois dias, do que minha vida toda dentro desse castelo. - Eliot responde, convicto.";
+                                                            cout << endl << " - E voc√™ quase morreu, v√°rias vezes.";
+                                                            cout << endl << " - Sim, foi incr√≠vel n√£o foi?";
+                                                            cout << endl << " - Voc√™ √© doido. - Voc√™ responde rindo.";
                                                             cout << endl << " Eliot ri, se despede e entra no castelo.";
-                                                            cout << endl << " A miss„o foi um sucesso e vocÍ recebeu o pagamento completo.";
+                                                            cout << endl << " A miss√£o foi um sucesso e voc√™ recebeu o pagamento completo.";
 
                                                             return 0;
 
@@ -591,342 +591,342 @@ int main()
 
     }
 
-//INÕCIO DA HIST”RIA 3
+//IN√çCIO DA HIST√ìRIA 3
     if (num == 3){
-//INTRODU«√O DA MISS√O
-        cout<<"ApÛs escolher a miss„o para resgatar a princesa, vocÍ lÍ nas informaÁıes do contrato: 'Presa em Ascalack'.";
-        cout<<"\nAscalack, È a ilha mais distante de todo o reino, alÈm de ser uma viagem longa e rigorosa com dificuldades pelo caminho, a princesa era guardada por um antigo mago Ascalackiano (Ascalackianos eram os magos mais experientes do reino).";
-        cout<<"\nTodos os magos do reino tÍm um ponto fraco e esta È a ˙nica maneira de derrotar um mago mais experiente.";
-        cout<<"\nPara descobrir o ponto fraco de um mago, basta fazer um feitiÁo que tem os seguintes requisitos para ser feito:";
+//INTRODU√á√ÉO DA MISS√ÉO
+        cout<<"Ap√≥s escolher a miss√£o para resgatar a princesa, voc√™ l√™ nas informa√ß√µes do contrato: 'Presa em Ascalack'.";
+        cout<<"\nAscalack, √© a ilha mais distante de todo o reino, al√©m de ser uma viagem longa e rigorosa com dificuldades pelo caminho, a princesa era guardada por um antigo mago Ascalackiano (Ascalackianos eram os magos mais experientes do reino).";
+        cout<<"\nTodos os magos do reino t√™m um ponto fraco e esta √© a √∫nica maneira de derrotar um mago mais experiente.";
+        cout<<"\nPara descobrir o ponto fraco de um mago, basta fazer um feiti√ßo que tem os seguintes requisitos para ser feito:";
         cout<<"\n1-Nome do Mago\n2-Ser feito pela Bruxa Suprema";
-        cout<<"\nEscolha o n˙mero do requisito o qual vocÍ deseja usar para fazer o feitiÁo:  ";
+        cout<<"\nEscolha o n√∫mero do requisito o qual voc√™ deseja usar para fazer o feiti√ßo:  ";
         cin>>num;
-// OP«√O 1 - NOME
+// OP√á√ÉO 1 - NOME
         if(num==1){
-            cout<<"\nO nome de um mago È algo secreto muito secreto.";
-            cout<<"\nPorÈm todos os nomes e posiÁıes dos habitantes do reino est„o escritos no livro do espaÁo/tempo, que È guardado por Osceles";
-            cout<<"\n(um veterano de batalha que possui muita forÁa fÌsica)";
-            cout<<"\nCom isso em mente, vocÍ vai atÈ Bulfrock, o dono da Guilda, para perguntar sobre o livro.";
-            cout<<"\n-Onde fica o livro do espaÁo/tempo Bulfrock?";
+            cout<<"\nO nome de um mago √© algo secreto muito secreto.";
+            cout<<"\nPor√©m todos os nomes e posi√ß√µes dos habitantes do reino est√£o escritos no livro do espa√ßo/tempo, que √© guardado por Osceles";
+            cout<<"\n(um veterano de batalha que possui muita for√ßa f√≠sica)";
+            cout<<"\nCom isso em mente, voc√™ vai at√© Bulfrock, o dono da Guilda, para perguntar sobre o livro.";
+            cout<<"\n-Onde fica o livro do espa√ßo/tempo Bulfrock?";
             cout<<"\nEspantado, Bulfrock responde:";
-            cout<<"\n-H· um veterano de batalha neste local, sair de l· com o livro ser· um trabalho difÌcil, mas posso lhe dar um mapa com as coordenadas para o local.";
-            cout<<"\nDigite 1 se deseja usar o mapa de bulfrock e 2 se deseja trocar de miss„o:";
+            cout<<"\n-H√° um veterano de batalha neste local, sair de l√° com o livro ser√° um trabalho dif√≠cil, mas posso lhe dar um mapa com as coordenadas para o local.";
+            cout<<"\nDigite 1 se deseja usar o mapa de bulfrock e 2 se deseja trocar de miss√£o:";
             cin>>num;
 // 1.1 -  PEGAR O MAPA
             if (num==1){
-                cout<<"\nBulfrock lhe entrega um mapa com o local e vocÍ parte para a jornada. ";
-                cout<<"\nChegando no local, vocÍ vÍ uma gruta com uma passagem escura e muitos restos mortais ao lado. ";
-                cout<<"\nAo entar na gruta, uma pedra rola e fecha a ˙nica passagem que a gruta tem, obrigando vocÍ a seguir.";
-                cout<<"\nApÛs um tempo de caminhada dentro da gruta um esqueleto com 2 metros de altura e uma armadura poderosa te aborda:";
-                cout<<"\n- Bem-vindo a gruta do espaÁo tempo, meu nome È Osceles, sou o Guardi„o da gruta. ";
-                cout<<"\n- A partir de agora vocÍ tem apenas duas opÁıes para sair daqui com o livro do espaÁo tempo: Me venÁa em uma batalha ou se torne leal ao Lord Mepless. ";
+                cout<<"\nBulfrock lhe entrega um mapa com o local e voc√™ parte para a jornada. ";
+                cout<<"\nChegando no local, voc√™ v√™ uma gruta com uma passagem escura e muitos restos mortais ao lado. ";
+                cout<<"\nAo entar na gruta, uma pedra rola e fecha a √∫nica passagem que a gruta tem, obrigando voc√™ a seguir.";
+                cout<<"\nAp√≥s um tempo de caminhada dentro da gruta um esqueleto com 2 metros de altura e uma armadura poderosa te aborda:";
+                cout<<"\n- Bem-vindo a gruta do espa√ßo tempo, meu nome √© Osceles, sou o Guardi√£o da gruta. ";
+                cout<<"\n- A partir de agora voc√™ tem apenas duas op√ß√µes para sair daqui com o livro do espa√ßo tempo: Me ven√ßa em uma batalha ou se torne leal ao Lord Mepless. ";
                 cout<<"\nDigite 1 para lutar contra Osceles, Digite 2 para se tornar leal a Mepless";
                 cin>>num;
 //2.1 - LUTAR CONTRA OSCELES
                 if(num==1){
-                    cout<<"\nOsceles ativa um feitiÁo para que todos dentro da gruta percam suas habilidades mÌsticas sobrando somente a forÁa fÌsica para o combate";
-                    cout<<"\nCom tamanho poder e experiÍncia, Osceles investe apenas um grande soco e vocÍ cai sobre o ch„o da gruta";
+                    cout<<"\nOsceles ativa um feiti√ßo para que todos dentro da gruta percam suas habilidades m√≠sticas sobrando somente a for√ßa f√≠sica para o combate";
+                    cout<<"\nCom tamanho poder e experi√™ncia, Osceles investe apenas um grande soco e voc√™ cai sobre o ch√£o da gruta";
                     cout<<"\nGAME OVER";
                     return 0;
                 }
 //2.2 - SE TORNAR LEAL
 //A MEPLESS
                 if(num==2){
-                    cout<<"\nOsceles ent„o lhe concede acesso a uma sala onde estava o artefato";
+                    cout<<"\nOsceles ent√£o lhe concede acesso a uma sala onde estava o artefato";
                     cout<<"\nLogo ao adentrar a sala, o livro estava flutuando e uma luz do sol estava o iluminando";
-                    cout<<"\nSem pensar muito vocÍ pega o livro e corre para a saÌda que j· n„o estava mais fechada";
-                    cout<<"\nOsceles comeÁou a dizer algo, mas vocÍ admirado com a facilidade que foi conseguir o livro, sÛ conseguia pensar na recompensa do resgate";
-                    cout<<"\nApÛs sair da gruta vocÍ abre o livro e consulta o nome do mago askalakiano";
-                    cout<<"\nfeitiÁo feito e vocÍ tem tudo que precisa para resgatar a princesa com seguranÁa";
-                    cout<<"\nVocÍ comeÁa a sua longa jornada";
-                    cout<<"\nNa metade do caminho, vocÍ se depara com uma m„e em apuros";
-                    cout<<"\n -Preciso de ajuda para encontrar o meu filho, n„o o vejo a 10 dias e estou desesperada!";
-                    cout<<"\nVocÍ se depara com duas opÁıes: ajudar a pobre m„e usando o livro da realidade para ver onde o seu filho estava ou seguir a caminhada em direÁ„o a miss„o";
-                    cout<<"\nDigite 1 para ajudar a m„e, Digite 2 para continuar a jornada";
+                    cout<<"\nSem pensar muito voc√™ pega o livro e corre para a sa√≠da que j√° n√£o estava mais fechada";
+                    cout<<"\nOsceles come√ßou a dizer algo, mas voc√™ admirado com a facilidade que foi conseguir o livro, s√≥ conseguia pensar na recompensa do resgate";
+                    cout<<"\nAp√≥s sair da gruta voc√™ abre o livro e consulta o nome do mago askalakiano";
+                    cout<<"\nfeiti√ßo feito e voc√™ tem tudo que precisa para resgatar a princesa com seguran√ßa";
+                    cout<<"\nVoc√™ come√ßa a sua longa jornada";
+                    cout<<"\nNa metade do caminho, voc√™ se depara com uma m√£e em apuros";
+                    cout<<"\n -Preciso de ajuda para encontrar o meu filho, n√£o o vejo a 10 dias e estou desesperada!";
+                    cout<<"\nVoc√™ se depara com duas op√ß√µes: ajudar a pobre m√£e usando o livro da realidade para ver onde o seu filho estava ou seguir a caminhada em dire√ß√£o a miss√£o";
+                    cout<<"\nDigite 1 para ajudar a m√£e, Digite 2 para continuar a jornada";
                     cin>>num;
-// 3.1 - AJUDAR A M√E
+// 3.1 - AJUDAR A M√ÉE
                     if(num==1){
                         ajudar = true;
-                        cout<<"\nPara ajudar a m„e, vocÍ consulta o livro do espaÁo tempo, e encontra o garoto facilmente.";
-                        cout<<"\nMuito agradecida a m„e, vai em busca de seu filho que estava em um bar no norte do reino.";
-                        cout<<"\nApÛs ajudar a m„e vocÍ continua sua jornada.";
+                        cout<<"\nPara ajudar a m√£e, voc√™ consulta o livro do espa√ßo tempo, e encontra o garoto facilmente.";
+                        cout<<"\nMuito agradecida a m√£e, vai em busca de seu filho que estava em um bar no norte do reino.";
+                        cout<<"\nAp√≥s ajudar a m√£e voc√™ continua sua jornada.";
                     }
-//3.2 - N√O AJUDAR E
+//3.2 - N√ÉO AJUDAR E
 //CONTINUAR JORNADA
                     if(num == 2){
                         ajudar = false;
-                        cout<<"\nMuito ocupado com sua miss„o vocÍ decide ent„o n„o ajudar e continuar";
+                        cout<<"\nMuito ocupado com sua miss√£o voc√™ decide ent√£o n√£o ajudar e continuar";
                     }
 //SEGUINDO A JORNADA
-                    cout<<"\nDias depois, vocÍ ent„o chega ‡ ilha onde est· a princesa. O lugar era obscuro e o acesso a ilha sÛ poderia ser feito por uma ponte que estava caindo aos pedaÁos";
-                    cout<<"\nEntrando na ilha vocÍ È recebido por ·rvores que lhe jogam galhos envenenados e raÌzes parasitas que prendem os pÈs, mas nada disso È suficiente para lhe barrar";
+                    cout<<"\nDias depois, voc√™ ent√£o chega √† ilha onde est√° a princesa. O lugar era obscuro e o acesso a ilha s√≥ poderia ser feito por uma ponte que estava caindo aos peda√ßos";
+                    cout<<"\nEntrando na ilha voc√™ √© recebido por √°rvores que lhe jogam galhos envenenados e ra√≠zes parasitas que prendem os p√©s, mas nada disso √© suficiente para lhe barrar";
                     cout<<"\nDepois de derrotar as defesas do askalakiano, uma nuvem negra se aproxima e se torna o mago askalakiano";
-                    cout<<"\nNada que ele pudesse fazer iria lhe afetar pois o seu ponto fraco estava em nossas m„os";
-                    cout<<"\nDerrotando-o com apenas um belo ataque mÌstico vocÍ estava livre para buscar a princesa e receber a recompensa";
+                    cout<<"\nNada que ele pudesse fazer iria lhe afetar pois o seu ponto fraco estava em nossas m√£os";
+                    cout<<"\nDerrotando-o com apenas um belo ataque m√≠stico voc√™ estava livre para buscar a princesa e receber a recompensa";
 // MORRE SE AJUDOU
                     if(ajudar == true){
-                        cout<<"\nSaindo com a princesa em seus braÁos, uma enorme tempestade se aproxima e vocÍ percebe que algo de estranho estava se aproximando";
-                        cout<<"\nAs raÌzes novamente comeÁam a prender seus pÈs, mas dessa vez mais forte. VocÍ ent„o solta a princesa e comeÁa a se livrar das raÌzes, que j· estavam nos seus joelhos";
-                        cout<<"\nCom as raÌzes j· na cintura e a tempestade consumindo toda a ilha, um raio estrondoso estremece todo o local, e dele o Lord Mepless aprece e diz";
-                        cout<<"\n-VocÍ falhou a ˙nica regraque impus sobre o livro";
-                        cout<<"\nUs·-lo apenas uma vez È necess·rio para que nosso mundo permaneÁa estabilizado, Osceles tentou lhe informar, mas vocÍ n„o o ouviu. E vocÍ agora ser· usado para reequilibrar a terra";
-                        cout<<"\nEnt„o as raÌzes terminam de consumir vocÍ e seu corpo È puxado para baixo da terra";
+                        cout<<"\nSaindo com a princesa em seus bra√ßos, uma enorme tempestade se aproxima e voc√™ percebe que algo de estranho estava se aproximando";
+                        cout<<"\nAs ra√≠zes novamente come√ßam a prender seus p√©s, mas dessa vez mais forte. Voc√™ ent√£o solta a princesa e come√ßa a se livrar das ra√≠zes, que j√° estavam nos seus joelhos";
+                        cout<<"\nCom as ra√≠zes j√° na cintura e a tempestade consumindo toda a ilha, um raio estrondoso estremece todo o local, e dele o Lord Mepless aprece e diz";
+                        cout<<"\n-Voc√™ falhou a √∫nica regraque impus sobre o livro";
+                        cout<<"\nUs√°-lo apenas uma vez √© necess√°rio para que nosso mundo permane√ßa estabilizado, Osceles tentou lhe informar, mas voc√™ n√£o o ouviu. E voc√™ agora ser√° usado para reequilibrar a terra";
+                        cout<<"\nEnt√£o as ra√≠zes terminam de consumir voc√™ e seu corpo √© puxado para baixo da terra";
                         cout<<"\nGAME OVER";
                         return 0;
                     }
-// GANHA SE N√O AJUDOU
+// GANHA SE N√ÉO AJUDOU
                     if(ajudar == false){
-                        cout<<"\nSaindo com a princesa em seus braÁos e um sentimento de vitÛria vocÍ vai em direÁ„o a bulfrock para receber a recompensa";
+                        cout<<"\nSaindo com a princesa em seus bra√ßos e um sentimento de vit√≥ria voc√™ vai em dire√ß√£o a bulfrock para receber a recompensa";
                         cout<<"\nYOU WIN";
                         return 0;
                     }
                 }
             }
- //1.2 TROCAR DE MISS√O
+ //1.2 TROCAR DE MISS√ÉO
             if(num==2){
-                cout<<"\nVocÍ optou por trocar de miss„o e ir atr·s da bruxa suprema";
+                cout<<"\nVoc√™ optou por trocar de miss√£o e ir atr√°s da bruxa suprema";
                 trocar = true;
                 num=2;
             }
          }
 //1 - SER FEITO PELA BRUXA SUPREMA
         if(num==2){
-//FILTRAR COUT CASO O CLIENT TENHA TROCADO DE MISS√O
+//FILTRAR COUT CASO O CLIENT TENHA TROCADO DE MISS√ÉO
             if(trocar == false){
-                cout<<"\nApÛs se lembrar de boatos sobre o grande poder que a bruxa suprema detinha, vocÍ decide ir atÈ ela para pedir ajuda";
+                cout<<"\nAp√≥s se lembrar de boatos sobre o grande poder que a bruxa suprema detinha, voc√™ decide ir at√© ela para pedir ajuda";
             }
-            cout<<"\nSem informaÁıes sobre ela, vocÍ decide perguntar a Bulfrock";
+            cout<<"\nSem informa√ß√µes sobre ela, voc√™ decide perguntar a Bulfrock";
             cout<<"\nOnde posso encontrar a bruxa Bulfrock";
-            cout<<"\nN„o tenho muita informaÁ„o sobre a bruxa, porÈm sei que o an„o ferreiro j· pediu a ajuda dela em uma miss„o, talvez ele possa ajud·-lo";
-            cout<<"\nDigite 1 para falar com o an„o ferreiro ,2 para falar com outra pessoa: ";
+            cout<<"\nN√£o tenho muita informa√ß√£o sobre a bruxa, por√©m sei que o an√£o ferreiro j√° pediu a ajuda dela em uma miss√£o, talvez ele possa ajud√°-lo";
+            cout<<"\nDigite 1 para falar com o an√£o ferreiro ,2 para falar com outra pessoa: ";
             cin>>num;
-//1.1 - FALAR COM O AN√O
+//1.1 - FALAR COM O AN√ÉO
             if(num == 1){
-            cout<<"\nO an„o ferreiro morava prÛximo ao vulc„o springfire, um lugar com temperaturas muito desagrad·veis, mesmo assim a recompensa seria muito boa e valeria a pena o desconforto";
-            cout<<"\nAo se aproximar de springfire vocÍ j· poderia sentir o calor. E estava claro a possibilidade de um possÌvel mal-estar.";
-            cout<<"\nChegando na casa do an„o, vocÍ estava muito suado e cansado. ";
-            cout<<"\nAo entrar, o an„o estava fazendo uma armadura, e por ser rude, n„o parou o trabalho para lhe dar atenÁ„o, quando vocÍ perguntou";
+            cout<<"\nO an√£o ferreiro morava pr√≥ximo ao vulc√£o springfire, um lugar com temperaturas muito desagrad√°veis, mesmo assim a recompensa seria muito boa e valeria a pena o desconforto";
+            cout<<"\nAo se aproximar de springfire voc√™ j√° poderia sentir o calor. E estava claro a possibilidade de um poss√≠vel mal-estar.";
+            cout<<"\nChegando na casa do an√£o, voc√™ estava muito suado e cansado. ";
+            cout<<"\nAo entrar, o an√£o estava fazendo uma armadura, e por ser rude, n√£o parou o trabalho para lhe dar aten√ß√£o, quando voc√™ perguntou";
             cout<<"\n- Conheces a Bruxa Suprema?";
-            cout<<"\n- ConheÁo, ela È uma mulher que n„o gosta muito de visitas, mas sou um amigo prÛximo e posso ajuda-lo, porÈm para tudo h· um preÁoî, respondeu o an„o.";
-            cout<<"\n- Posso lhe dar uma boa recompensaî, vocÍ responde.";
-            cout<<"\n- N„o falo de moedas, caro viajante. Estas s„o valiosas apenas em tabernas, mas nas batalhas o verdadeiro poder est· na forÁa mÌstica que carrega.";
-            cout<<"\n- O que vocÍ quer ent„o? VocÍ pergunta. ";
-            cout<<"\n-NÛs anıes estamos em guerra com os askalaquianos a muito tempo. Temos mais forÁa e estamos sempre em maior n˙mero, mas a forÁa mÌstica deles sempre nos supera. Estou construindo armaduras e armas mÌsticas e preciso de uma poÁ„o para poder finalizas.";
-            cout<<"\n Se me ajudar a buscar uma das duas poÁıes que preciso para destruir todos os lugares onde os askalaquianos moram, poderei lhe fornecer informaÁıes sobre a bruxa suprema. ";
-            cout<<"\nDigite 1 para ajudar o an„o, 2 para oferecer dinheiro novamente: ";
+            cout<<"\n- Conhe√ßo, ela √© uma mulher que n√£o gosta muito de visitas, mas sou um amigo pr√≥ximo e posso ajuda-lo, por√©m para tudo h√° um pre√ßo¬î, respondeu o an√£o.";
+            cout<<"\n- Posso lhe dar uma boa recompensa¬î, voc√™ responde.";
+            cout<<"\n- N√£o falo de moedas, caro viajante. Estas s√£o valiosas apenas em tabernas, mas nas batalhas o verdadeiro poder est√° na for√ßa m√≠stica que carrega.";
+            cout<<"\n- O que voc√™ quer ent√£o? Voc√™ pergunta. ";
+            cout<<"\n-N√≥s an√µes estamos em guerra com os askalaquianos a muito tempo. Temos mais for√ßa e estamos sempre em maior n√∫mero, mas a for√ßa m√≠stica deles sempre nos supera. Estou construindo armaduras e armas m√≠sticas e preciso de uma po√ß√£o para poder finalizas.";
+            cout<<"\n Se me ajudar a buscar uma das duas po√ß√µes que preciso para destruir todos os lugares onde os askalaquianos moram, poderei lhe fornecer informa√ß√µes sobre a bruxa suprema. ";
+            cout<<"\nDigite 1 para ajudar o an√£o, 2 para oferecer dinheiro novamente: ";
             cin>>num;
-//2.1 - ACEITAR BUSCAR PO«’ES
+//2.1 - ACEITAR BUSCAR PO√á√ïES
             if(num == 1){
-                cout<<"\n-Me conte mais sobre as poÁıes. VocÍ disse.";
-                cout<<"\n-As duas poÁıes ser„o complicadas, mas com o auxÌlio das ferramentas que construÌ vocÍ conseguira.";
-                cout<<"\n-A poÁ„o do ar est· localizada no mais alto ponto do reino e a poÁ„o do fogo est· dentro do vulc„o. Springfire. As duas poÁıes do reino me dar„o forÁa mÌstica suficiente para completa minha miss„o de acabar com os magos. ";
-                cout<<"\nDigite 1 para buscar a poÁ„o do ar 2 para buscar a poÁ„o do fogo: ";
+                cout<<"\n-Me conte mais sobre as po√ß√µes. Voc√™ disse.";
+                cout<<"\n-As duas po√ß√µes ser√£o complicadas, mas com o aux√≠lio das ferramentas que constru√≠ voc√™ conseguira.";
+                cout<<"\n-A po√ß√£o do ar est√° localizada no mais alto ponto do reino e a po√ß√£o do fogo est√° dentro do vulc√£o. Springfire. As duas po√ß√µes do reino me dar√£o for√ßa m√≠stica suficiente para completa minha miss√£o de acabar com os magos. ";
+                cout<<"\nDigite 1 para buscar a po√ß√£o do ar 2 para buscar a po√ß√£o do fogo: ";
                 cin>>num;
-//3.1 - BUSCAR PO«√O DO AR
+//3.1 - BUSCAR PO√á√ÉO DO AR
                 if(num==1){
-                    cout<<"\n-SÛ irei se for para buscar a poÁ„o do ar. VocÍ responde.";
-                    cout<<"\n-Certo,espere aqui e n„o mexa em nada, irei buscar o mapa e os equipamentos que vocÍ precisa para buscar a poÁ„o e guard·-la com seguranÁa. ";
-                    cout<<"\nO an„o sai da sala e vocÍ fica sozinho na oficina dele.";
-                    cout<<"\nDigite 1 para vasculhar a oficina do an„o 2 para apenas esperar: ";
+                    cout<<"\n-S√≥ irei se for para buscar a po√ß√£o do ar. Voc√™ responde.";
+                    cout<<"\n-Certo,espere aqui e n√£o mexa em nada, irei buscar o mapa e os equipamentos que voc√™ precisa para buscar a po√ß√£o e guard√°-la com seguran√ßa. ";
+                    cout<<"\nO an√£o sai da sala e voc√™ fica sozinho na oficina dele.";
+                    cout<<"\nDigite 1 para vasculhar a oficina do an√£o 2 para apenas esperar: ";
                     cin>>num;
 //4.1 - VASCULHAR A OFICINA
                     if(num==1){
-                        cout<<"\nVocÍ n„o tem muito tempo e deve escolher apenas 1 dos 4 lugares para procurar algo na oficina do an„o: ";
-                        cout<<"\nDigite: \n1 - Para procurar nas gavetas do arm·rio\n2 - Para procurar na dispensa da oficina\n3 - procurar no barril\n4 ñ Procurar dentro de caixas de metal\n ";
+                        cout<<"\nVoc√™ n√£o tem muito tempo e deve escolher apenas 1 dos 4 lugares para procurar algo na oficina do an√£o: ";
+                        cout<<"\nDigite: \n1 - Para procurar nas gavetas do arm√°rio\n2 - Para procurar na dispensa da oficina\n3 - procurar no barril\n4 ¬ñ Procurar dentro de caixas de metal\n ";
                         cin>>num;
 //5 - ESCOLHER O LUGAR PARA
 //VASCULHAR
 
 // 5.1 - VASCULHAR NA GAVETA
                         if(num == 1){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para as gavetas e imediatamente abre elas para ver se conseguiria achar algo que pudesse lhe ajudar.";
-                            cout<<"\nApÛs abrir muitas gavetas vocÍ encontra uma ferramenta que o an„o usou para forjar o metal mÌstico ";
-                            cout<<"\nEla È muito poderosa e pode quebrar qualquer coisa ou moldar qualquer coisa";
-                            cout<<"\nDigite 1 para pegar a ferramente 2 para n„o pegar: ";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para as gavetas e imediatamente abre elas para ver se conseguiria achar algo que pudesse lhe ajudar.";
+                            cout<<"\nAp√≥s abrir muitas gavetas voc√™ encontra uma ferramenta que o an√£o usou para forjar o metal m√≠stico ";
+                            cout<<"\nEla √© muito poderosa e pode quebrar qualquer coisa ou moldar qualquer coisa";
+                            cout<<"\nDigite 1 para pegar a ferramente 2 para n√£o pegar: ";
                             cin>>num;
 //6.1 - PEGAR FERRAMENTA
                             if(num==1){
                                 ferramenta =true;
-                                cout<<"\nVocÍ pega a ferramente e volta para onde estava";
+                                cout<<"\nVoc√™ pega a ferramente e volta para onde estava";
                             }
-//6.2 - N√O PEGAR
+//6.2 - N√ÉO PEGAR
                             if(num==2){
                                 num=0;
-                                cout<<"\nPor ficar com receio de pegar a ferramenta vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a ferramenta voc√™ volta para onde estava";
                             }
                         }
 //5.2 -VASCULHAR NA DISPENSA
                         if(num == 2){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para a dispensa e imediatamente abre ela para ver se conseguiria achar algo que pudesse lhe ajudar ";
-                            cout<<"\nDentro da dispensa sÛ havia comida, vocÍ n„o pegou nada, pois n„o precisava no momento.";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para a dispensa e imediatamente abre ela para ver se conseguiria achar algo que pudesse lhe ajudar ";
+                            cout<<"\nDentro da dispensa s√≥ havia comida, voc√™ n√£o pegou nada, pois n√£o precisava no momento.";
                         }
 //5.3 -VASCULHAR NO BARRIL
                         if(num == 3){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para um barril e imediatamente abre e olha para dentro dele para ver se poderia encontrar algo para lhe ajudar ";
-                            cout<<"\nNo barril, havia uma luva resfriando, semelhante a que o an„o usaria para poder manusear o poder do das poÁıes.";
-                            cout<<"\nDigite 1 para pegar a luva 2 para n„o pegar a luva";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para um barril e imediatamente abre e olha para dentro dele para ver se poderia encontrar algo para lhe ajudar ";
+                            cout<<"\nNo barril, havia uma luva resfriando, semelhante a que o an√£o usaria para poder manusear o poder do das po√ß√µes.";
+                            cout<<"\nDigite 1 para pegar a luva 2 para n√£o pegar a luva";
 //6.1 - PEGAR LUVA
                             if(num == 1){
-                                cout<<"\nAo estender a m„o para pegar a luva que estava no fundo do barril, vocÍ queima a m„o com ·gua quente.";
-                                cout<<"\nPara n„o se machucar mais, vocÍ volta para onde estava. ";
+                                cout<<"\nAo estender a m√£o para pegar a luva que estava no fundo do barril, voc√™ queima a m√£o com √°gua quente.";
+                                cout<<"\nPara n√£o se machucar mais, voc√™ volta para onde estava. ";
                             }
-//6.2 - N√O PEGAR LUVA
+//6.2 - N√ÉO PEGAR LUVA
                             if(num == 2){
-                                cout<<"\nPor ficar com receio de pegar a luva vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a luva voc√™ volta para onde estava";
                             }
                         }
 //5.4 - VASCULHAR NA CAIXA DE METAL
                         if(num == 4){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para uma caixa de metal e imediatamente vai atÈ ela e a abre para ver se poderia encontrar algo para lhe ajudar. ";
-                            cout<<"\nNa caixa haviam v·rias luvas semelhantes a que o an„o usaria para manusear o poder das poÁıes.";
-                            cout<<"\nDigite 1 para pegar a uma das luvas 2 pra n„o pegar a luva";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para uma caixa de metal e imediatamente vai at√© ela e a abre para ver se poderia encontrar algo para lhe ajudar. ";
+                            cout<<"\nNa caixa haviam v√°rias luvas semelhantes a que o an√£o usaria para manusear o poder das po√ß√µes.";
+                            cout<<"\nDigite 1 para pegar a uma das luvas 2 pra n√£o pegar a luva";
                             cin>>num;
 // 6.1 - PEGAR A LUVA
                             if(num==1){
                                 luva = true;
-                                cout<<"\nvocÍ pega a luva, a coloca em sua bolsa e volta para onde estava. ";
+                                cout<<"\nvoc√™ pega a luva, a coloca em sua bolsa e volta para onde estava. ";
                             }
-// 6.2 - N√O PEGAR A LUVA
+// 6.2 - N√ÉO PEGAR A LUVA
                             if(num == 2){
-                                cout<<"\nPor ficar com receio de pegar a luva vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a luva voc√™ volta para onde estava";
                             }
                         }
                     }
-//O AN√O CHEGOU
-                    cout<<"\n ñBem aqui est· o mapa com as coordenadas para vocÍ chegar a poÁ„o, um escudo mÌstico e uma mochila com ar para vocÍ conseguir voar. A mochila n„o tem muito combustÌvel, ent„o n„o desperdice e seja r·pido na hora de usar. Uma boa sorte para vocÍ mago ìxî. ";
-                    cout<<"\nVocÍ ent„o parte para o lugar mais alto do reino.";
-                    cout<<"\nA jornada era simples, um bom caminho e sem complicaÁıes ou criaturas mÌsticas no cominho. ";
-                    cout<<"\nAo chegar na montanha, vocÍ mal conseguia compreender o seu tamanho pois as nuvens a cobriam.";
-                    cout<<"\nCom ajuda do seu escudo mÌstico subir a montanha se tornou algo f·cil, porque ele se movia sozinho por causa da magia.";
-                    cout<<"\nSem muito trabalho, chega no topo da montanha. VocÍ podia avistar uma luz e uma passagem que parecia uma ponte. ";
-                    cout<<"\nVocÍ ent„o comeÁa a andar pela ponte com muito cuidado. Olhando pela borda da ponte dava para ver o ch„o, que estava muito distante. Um erro ali seria fatal. ";
-                    cout<<"\nSe aproximando da nuvem vocÍ percebe que a ponte est· chegando ao fim e ter· que usar a mochila de ar.";
-                    cout<<"\nCom muito cuidado vocÍ liga a mochila e continua atÈ chegar ‡ nuvem;";
-                    cout<<"\nDentro da nuvem estava a poÁ„o, com toda sendo luz exalado a sua volta.";
-                    cout<<"\nVocÍ vai em direÁ„o a ela e quando a pega o combustÌvel da mochila acaba e vocÍ comeÁa a cair em queda livre.";
-                    cout<<"\nSem muita opÁ„o a sua ˙nica saÌda seria usar a poÁ„o do ar para voar.";
-                    cout<<"\nEnt„o vocÍ abre sua mochila e encontra ";
-//COME«OU A CAIR COM A LUVA
+//O AN√ÉO CHEGOU
+                    cout<<"\n ¬ñBem aqui est√° o mapa com as coordenadas para voc√™ chegar a po√ß√£o, um escudo m√≠stico e uma mochila com ar para voc√™ conseguir voar. A mochila n√£o tem muito combust√≠vel, ent√£o n√£o desperdice e seja r√°pido na hora de usar. Uma boa sorte para voc√™ mago ¬ìx¬î. ";
+                    cout<<"\nVoc√™ ent√£o parte para o lugar mais alto do reino.";
+                    cout<<"\nA jornada era simples, um bom caminho e sem complica√ß√µes ou criaturas m√≠sticas no cominho. ";
+                    cout<<"\nAo chegar na montanha, voc√™ mal conseguia compreender o seu tamanho pois as nuvens a cobriam.";
+                    cout<<"\nCom ajuda do seu escudo m√≠stico subir a montanha se tornou algo f√°cil, porque ele se movia sozinho por causa da magia.";
+                    cout<<"\nSem muito trabalho, chega no topo da montanha. Voc√™ podia avistar uma luz e uma passagem que parecia uma ponte. ";
+                    cout<<"\nVoc√™ ent√£o come√ßa a andar pela ponte com muito cuidado. Olhando pela borda da ponte dava para ver o ch√£o, que estava muito distante. Um erro ali seria fatal. ";
+                    cout<<"\nSe aproximando da nuvem voc√™ percebe que a ponte est√° chegando ao fim e ter√° que usar a mochila de ar.";
+                    cout<<"\nCom muito cuidado voc√™ liga a mochila e continua at√© chegar √† nuvem;";
+                    cout<<"\nDentro da nuvem estava a po√ß√£o, com toda sendo luz exalado a sua volta.";
+                    cout<<"\nVoc√™ vai em dire√ß√£o a ela e quando a pega o combust√≠vel da mochila acaba e voc√™ come√ßa a cair em queda livre.";
+                    cout<<"\nSem muita op√ß√£o a sua √∫nica sa√≠da seria usar a po√ß√£o do ar para voar.";
+                    cout<<"\nEnt√£o voc√™ abre sua mochila e encontra ";
+//COME√áOU A CAIR COM A LUVA
                     if(luva==true){
-                        cout<<"a luva do an„o ferreiro, e rapidamente a coloca em sua m„o, injeta a poÁ„o e comeÁa a voar tranquilamente em direÁ„o a oficina do an„o ferreiro.";
-                        cout<<"\nAo perceber que j· tinha poder o suficiente para matar o askalquiano, vocÍ vai em direÁ„o ‡ Askalack. ";
-                        cout<<"\nEntrando na ilha vocÍ È recebido por ·rvores que lhe jogam galhos envenenados e raÌzes parasitas que prendem os pÈs, mas nada disso È suficiente para lhe barrar";
+                        cout<<"a luva do an√£o ferreiro, e rapidamente a coloca em sua m√£o, injeta a po√ß√£o e come√ßa a voar tranquilamente em dire√ß√£o a oficina do an√£o ferreiro.";
+                        cout<<"\nAo perceber que j√° tinha poder o suficiente para matar o askalquiano, voc√™ vai em dire√ß√£o √† Askalack. ";
+                        cout<<"\nEntrando na ilha voc√™ √© recebido por √°rvores que lhe jogam galhos envenenados e ra√≠zes parasitas que prendem os p√©s, mas nada disso √© suficiente para lhe barrar";
                         cout<<"\nDepois de derrotar as defesas do askalakiano, uma nuvem negra se aproxima e se torna o mago askalakiano ";
-                        cout<<"\nAntes que ele pudesse fazer qualquer tipo de ataque vocÍ usa o poder m·ximo da luva para lanÁar um ataque poderoso contra o mago, jogando-o para t„o longe que ele atÈ saiu das terras do reino.";
-                        cout<<"\nAgora vocÍ estava livre para resgatar a princesa e receber sua recompensa. ";
+                        cout<<"\nAntes que ele pudesse fazer qualquer tipo de ataque voc√™ usa o poder m√°ximo da luva para lan√ßar um ataque poderoso contra o mago, jogando-o para t√£o longe que ele at√© saiu das terras do reino.";
+                        cout<<"\nAgora voc√™ estava livre para resgatar a princesa e receber sua recompensa. ";
                         cout<<"\nYOU WIN";
                     }
-//COME«OU A CAIR SEM A LUVA
+//COME√áOU A CAIR SEM A LUVA
                     if(luva==false){
-                        cout<<"muitos equipamentos que vocÍ tinha preparado para a viagem, mas nada que pudesse te ajudar neste momento.";
-                        cout<<"\nEnt„o vocÍ chega ao ch„o e tem uma morte tr·gica.";
+                        cout<<"muitos equipamentos que voc√™ tinha preparado para a viagem, mas nada que pudesse te ajudar neste momento.";
+                        cout<<"\nEnt√£o voc√™ chega ao ch√£o e tem uma morte tr√°gica.";
                         cout<<"\nGAME OVER";
                         return 0;
                     }
-//COME«OU A CAIR COM A FERRAMENTA
+//COME√áOU A CAIR COM A FERRAMENTA
                     if(ferramenta==true){
-                        cout<<"a ferramenta que vocÍ encontrou na gaveta do an„o, que infelizmente n„o seria ˙til neste momento";
-                        cout<<"\nEnt„o vocÍ chega ao ch„o e tem uma morte tr·gica.";
+                        cout<<"a ferramenta que voc√™ encontrou na gaveta do an√£o, que infelizmente n√£o seria √∫til neste momento";
+                        cout<<"\nEnt√£o voc√™ chega ao ch√£o e tem uma morte tr√°gica.";
                         cout<<"\nGAME OVER";
                         return 0;
                     }
                 }
-//3.2 - BUSCAR PO«√O DO FOGO
+//3.2 - BUSCAR PO√á√ÉO DO FOGO
                 if(num==2){
-                    cout<<"\n-SÛ irei se for para buscar a poÁ„o do fogo. VocÍ responde.";
-                    cout<<"\n-Certo,espere aqui e n„o mexa em nada, irei buscar o mapa e os equipamentos que vocÍ precisa para buscar a poÁ„o e guard·-la com seguranÁa. ";
-                    cout<<"\nO an„o sai da sala e vocÍ fica sozinho na oficina dele.";
-                    cout<<"\nDigite 1 para vasculhar a oficina do an„o 2 para apenas esperar: ";
+                    cout<<"\n-S√≥ irei se for para buscar a po√ß√£o do fogo. Voc√™ responde.";
+                    cout<<"\n-Certo,espere aqui e n√£o mexa em nada, irei buscar o mapa e os equipamentos que voc√™ precisa para buscar a po√ß√£o e guard√°-la com seguran√ßa. ";
+                    cout<<"\nO an√£o sai da sala e voc√™ fica sozinho na oficina dele.";
+                    cout<<"\nDigite 1 para vasculhar a oficina do an√£o 2 para apenas esperar: ";
                     cin>>num;
 //4.1 - VASCULHAR A OFICINA
                     if(num==1){
-                        cout<<"\nVocÍ n„o tem muito tempo e deve escolher apenas 1 dos 4 lugares para procurar algo na oficina do an„o: ";
-                        cout<<"\nDigite: \n1 - Para procurar nas gavetas do arm·rio\n2 - Para procurar na dispensa da oficina\n3 - procurar no barril\n4 ñ Procurar dentro de caixas de metal\n ";
+                        cout<<"\nVoc√™ n√£o tem muito tempo e deve escolher apenas 1 dos 4 lugares para procurar algo na oficina do an√£o: ";
+                        cout<<"\nDigite: \n1 - Para procurar nas gavetas do arm√°rio\n2 - Para procurar na dispensa da oficina\n3 - procurar no barril\n4 ¬ñ Procurar dentro de caixas de metal\n ";
                         cin>>num;
 //5 - ESCOLHER O LUGAR PARA
 //VASCULHAR
 
 // 5.1 - VASCULHAR NA GAVETA
                         if(num == 1){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para as gavetas e imediatamente abre elas para ver se conseguiria achar algo que pudesse lhe ajudar.";
-                            cout<<"\nApÛs abrir muitas gavetas vocÍ encontra uma ferramenta que o an„o usou para forjar o metal mÌstico ";
-                            cout<<"\nEla È muito poderosa e pode quebrar qualquer coisa ou moldar qualquer coisa";
-                            cout<<"\nDigite 1 para pegar a ferramente 2 para n„o pegar: ";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para as gavetas e imediatamente abre elas para ver se conseguiria achar algo que pudesse lhe ajudar.";
+                            cout<<"\nAp√≥s abrir muitas gavetas voc√™ encontra uma ferramenta que o an√£o usou para forjar o metal m√≠stico ";
+                            cout<<"\nEla √© muito poderosa e pode quebrar qualquer coisa ou moldar qualquer coisa";
+                            cout<<"\nDigite 1 para pegar a ferramente 2 para n√£o pegar: ";
                             cin>>num;
 //6.1 - PEGAR FERRAMENTA
                             if(num==1){
                                 ferramenta = true;
-                                cout<<"\nVocÍ pega a ferramente e volta para onde estava";
+                                cout<<"\nVoc√™ pega a ferramente e volta para onde estava";
                             }
-//6.2 - N√O PEGAR
+//6.2 - N√ÉO PEGAR
                             if(num==2){
                                 num=0;
-                                cout<<"\nPor ficar com receio de pegar a ferramenta vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a ferramenta voc√™ volta para onde estava";
                             }
                         }
 //5.2 -VASCULHAR NA DISPENSA
                         if(num == 2){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para a dispensa e imediatamente abre ela para ver se conseguiria achar algo que pudesse lhe ajudar ";
-                            cout<<"\nDentro da dispensa sÛ havia comida, vocÍ n„o pegou nada, pois n„o precisava no momento.";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para a dispensa e imediatamente abre ela para ver se conseguiria achar algo que pudesse lhe ajudar ";
+                            cout<<"\nDentro da dispensa s√≥ havia comida, voc√™ n√£o pegou nada, pois n√£o precisava no momento.";
                         }
 //5.3 -VASCULHAR NO BARRIL
                         if(num == 3){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para um barril e imediatamente abre e olha para dentro dele para ver se poderia encontrar algo para lhe ajudar ";
-                            cout<<"\nNo barril, havia uma luva resfriando, semelhante a que o an„o usaria para poder manusear o poder do das poÁıes.";
-                            cout<<"\nDigite 1 para pegar a luva 2 para n„o pegar a luva";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para um barril e imediatamente abre e olha para dentro dele para ver se poderia encontrar algo para lhe ajudar ";
+                            cout<<"\nNo barril, havia uma luva resfriando, semelhante a que o an√£o usaria para poder manusear o poder do das po√ß√µes.";
+                            cout<<"\nDigite 1 para pegar a luva 2 para n√£o pegar a luva";
 //6.1 - PEGAR LUVA
                             if(num == 1){
-                                cout<<"\nAo estender a m„o para pegar a luva que estava no fundo do barril, vocÍ queima a m„o com ·gua quente.";
-                                cout<<"\nPara n„o se machucar mais, vocÍ volta para onde estava. ";
+                                cout<<"\nAo estender a m√£o para pegar a luva que estava no fundo do barril, voc√™ queima a m√£o com √°gua quente.";
+                                cout<<"\nPara n√£o se machucar mais, voc√™ volta para onde estava. ";
                             }
-//6.2 - N√O PEGAR LUVA
+//6.2 - N√ÉO PEGAR LUVA
                             if(num == 2){
-                                cout<<"\nPor ficar com receio de pegar a luva vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a luva voc√™ volta para onde estava";
                             }
                         }
 //5.4 - VASCULHAR NA CAIXA DE METAL
                         if(num == 4){
-                            cout<<"\nAssim que ele fechou a porta vocÍ olha para uma caixa de metal e imediatamente vai atÈ ela e a abre para ver se poderia encontrar algo para lhe ajudar. ";
-                            cout<<"\nNa caixa haviam v·rias luvas semelhantes a que o an„o usaria para manusear o poder das poÁıes.";
-                            cout<<"\nDigite 1 para pegar a uma das luvas 2 pra n„o pegar a luva";
+                            cout<<"\nAssim que ele fechou a porta voc√™ olha para uma caixa de metal e imediatamente vai at√© ela e a abre para ver se poderia encontrar algo para lhe ajudar. ";
+                            cout<<"\nNa caixa haviam v√°rias luvas semelhantes a que o an√£o usaria para manusear o poder das po√ß√µes.";
+                            cout<<"\nDigite 1 para pegar a uma das luvas 2 pra n√£o pegar a luva";
                             cin>>num;
 // 6.1 - PEGAR A LUVA
                             if(num==1){
                                 luva = true;
-                                cout<<"\nvocÍ pega a luva, a coloca em sua bolsa e volta para onde estava. ";
+                                cout<<"\nvoc√™ pega a luva, a coloca em sua bolsa e volta para onde estava. ";
                             }
-// 6.2 - N√O PEGAR A LUVA
+// 6.2 - N√ÉO PEGAR A LUVA
                             if(num == 2){
-                                cout<<"\nPor ficar com receio de pegar a luva vocÍ volta para onde estava";
+                                cout<<"\nPor ficar com receio de pegar a luva voc√™ volta para onde estava";
                             }
                         }
                     }
-//O AN√O CHEGOU
-                    cout<<"\nñ Bem aqui est· o mapa com as coordenadas para vocÍ chegar a poÁ„o e um escudo mÌstico para vocÍ n„o suportar o calor. ";
-                    cout<<"\nVocÍ ent„o parte para o vulc„o Springfire, que ficava logo atr·s da casa do an„o ferreiro. ";
-                    cout<<"\nAo chegar no topo do vulc„o vocÍ percebe que h· um caminho que te leva direto para o centro do vulc„o. ";
-                    cout<<"\nAo se aproximar do centro vocÍ percebe que h· uma poÁ„o bem no meio da lava. ";
-                    cout<<"\nSeu escudo mÌstico permite que vocÍ ande sobre a lava, ent„o n„o teve muita dificuldade de chegar atÈ a poÁ„o. ";
-                    cout<<"\nQuando pegou a poÁ„o o vulÁ„o comeÁa a desmoronar. Pedras comeÁam a cair e vocÍ comeÁa a correr para o topo. ";
-                    cout<<"\nCom muita velocidade est· quase conseguindo chegar a saÌda, mas uma grande pedra cai na sua frente e bloqueia a ˙nica saÌda, neste momento vocÍ olha para sua mochila e encontra  ";
+//O AN√ÉO CHEGOU
+                    cout<<"\n¬ñ Bem aqui est√° o mapa com as coordenadas para voc√™ chegar a po√ß√£o e um escudo m√≠stico para voc√™ n√£o suportar o calor. ";
+                    cout<<"\nVoc√™ ent√£o parte para o vulc√£o Springfire, que ficava logo atr√°s da casa do an√£o ferreiro. ";
+                    cout<<"\nAo chegar no topo do vulc√£o voc√™ percebe que h√° um caminho que te leva direto para o centro do vulc√£o. ";
+                    cout<<"\nAo se aproximar do centro voc√™ percebe que h√° uma po√ß√£o bem no meio da lava. ";
+                    cout<<"\nSeu escudo m√≠stico permite que voc√™ ande sobre a lava, ent√£o n√£o teve muita dificuldade de chegar at√© a po√ß√£o. ";
+                    cout<<"\nQuando pegou a po√ß√£o o vul√ß√£o come√ßa a desmoronar. Pedras come√ßam a cair e voc√™ come√ßa a correr para o topo. ";
+                    cout<<"\nCom muita velocidade est√° quase conseguindo chegar a sa√≠da, mas uma grande pedra cai na sua frente e bloqueia a √∫nica sa√≠da, neste momento voc√™ olha para sua mochila e encontra  ";
                     if(ferramenta==true){
-                        cout<<"a ferramenta que encontrou na gaveta do an„o ";
-                        cout<<"\nSem muita dificuldade vocÍ a usa para abrir um caminho e est· livre para seguir atÈ a casa do an„o.";
-                        cout<<"\nNo caminho atÈ a casa do an„o vocÍ pensa em seguir direto para a ilha, j· que a luva com a poÁ„o seria o suficiente para matar o askalaquiano, mas a casa do an„o era bem prÛxima do vulc„o e ele poderia lhe interceptar.";
-                        cout<<"\nAo chegar na oficina, vocÍ percebe que aparentemente ela est· vazia e comeÁa a entrar.  ";
-                        cout<<"\nAo entrar um grande soco lhe recebe e vocÍ cai ao ch„o. ";
-                        cout<<"\nO an„o estava enfurecido por vocÍ ter roubado sua luva e iria se vingar. ";
-                        cout<<"\nCom uma de suas armas mÌsticas ele tira sua vida e sua histÛria acaba ali. ";
+                        cout<<"a ferramenta que encontrou na gaveta do an√£o ";
+                        cout<<"\nSem muita dificuldade voc√™ a usa para abrir um caminho e est√° livre para seguir at√© a casa do an√£o.";
+                        cout<<"\nNo caminho at√© a casa do an√£o voc√™ pensa em seguir direto para a ilha, j√° que a luva com a po√ß√£o seria o suficiente para matar o askalaquiano, mas a casa do an√£o era bem pr√≥xima do vulc√£o e ele poderia lhe interceptar.";
+                        cout<<"\nAo chegar na oficina, voc√™ percebe que aparentemente ela est√° vazia e come√ßa a entrar.  ";
+                        cout<<"\nAo entrar um grande soco lhe recebe e voc√™ cai ao ch√£o. ";
+                        cout<<"\nO an√£o estava enfurecido por voc√™ ter roubado sua luva e iria se vingar. ";
+                        cout<<"\nCom uma de suas armas m√≠sticas ele tira sua vida e sua hist√≥ria acaba ali. ";
                         cout<<"\nGAME OVER";
                     }
                     if(ferramenta==false){
-                        cout<<"muitos objetos que tinha preparado para a viagem mas nada que pudesse ajudar vocÍ neste momento";
-                        cout<<"Ent„o, vocÍ fica preso e acaba sendo empurrado para o fundo do vulc„o pelas enormes pedras.";
+                        cout<<"muitos objetos que tinha preparado para a viagem mas nada que pudesse ajudar voc√™ neste momento";
+                        cout<<"Ent√£o, voc√™ fica preso e acaba sendo empurrado para o fundo do vulc√£o pelas enormes pedras.";
                         cout<<"GAME OVER";
                     }
                     if(luva == true){
-                        cout<<"a luva que encontrou na oficina do an„o, mas infelizmente ela n„o serviria de nada no momento";
-                        cout<<"Ent„o, vocÍ fica preso e acaba sendo empurrado para o fundo do vulc„o pelas enormes pedras.";
+                        cout<<"a luva que encontrou na oficina do an√£o, mas infelizmente ela n√£o serviria de nada no momento";
+                        cout<<"Ent√£o, voc√™ fica preso e acaba sendo empurrado para o fundo do vulc√£o pelas enormes pedras.";
                         cout<<"GAME OVER";
                     }
                 }
@@ -934,54 +934,54 @@ int main()
 //2.2 - OFERECER DINHEIRO NOVAMENTE
                 if(num ==2){
                     expulso=true;
-                    cout<<"\nñEstou sem tempo posso lhe pagar muito bem. VocÍ reafirma. ";
-                    cout<<"\nO an„o que n„o tem muita paciÍncia ordenou que vocÍ fosse em bora imediatamente. ";
-                    cout<<"\nPor n„o ter outra opÁ„o vocÍ chega na taberna de bulfrock e";
+                    cout<<"\n¬ñEstou sem tempo posso lhe pagar muito bem. Voc√™ reafirma. ";
+                    cout<<"\nO an√£o que n√£o tem muita paci√™ncia ordenou que voc√™ fosse em bora imediatamente. ";
+                    cout<<"\nPor n√£o ter outra op√ß√£o voc√™ chega na taberna de bulfrock e";
                 }
             }
         }
 //1.1 - PERGUNTAR A OUTRA PESSOA
         if(num==2){
             if(expulso==false){
-                cout<<"Por n„o confiar no an„o ferreiro, vocÍ";
+                cout<<"Por n√£o confiar no an√£o ferreiro, voc√™";
             }
             cout<<" decide perguntar para outras pessoas. ";
-            cout<<"\nVocÍ passa o dia inteiro perguntando para todos no reino qualquer informaÁ„o que possa aproveitar sobre a bruxa";
-            cout<<"\nApÛs muitas perguntas e nenhuma pista sobre a bruxa, um homem se aproxima de vocÍ. ";
-            cout<<"\nñ  Ol· mago x, me chamo Meierd, sou um cientista mÌstico e acho que tenho a soluÁ„o para salvar a princesa.  ";
-            cout<<"\nñ Prossiga, vocÍ diz sem muita expectativa. ";
-            cout<<"\nñ Eu foquei muito tempo de meus estudos na criaÁ„o de um robÙ que acredito que possa vencer qualquer mago em uma batalha, se quiser posso lhe mostrar como funciona. ";
-            cout<<"\nVocÍ curioso com o robÙ segue o homem atÈ sua oficina. ";
-            cout<<"\nVendo o robÙ, vocÍ pede para que ele de uma demonstraÁ„o de seu funcionamento. ";
-            cout<<"\nEnt„o Meierd ativa o robÙ que comeÁa a crescer. Cada centÌmetro que o robÙ crescia vocÍ ficava mais fraco. ApÛs 20 segundos com um robÙ crescendo do seu lado, vocÍ j· estava muito fraco e pede pra que Meierd o desligue.";
-            cout<<"\nE recuperando o fÙlego vocÍ diz: ";
-            cout<<"\nñ Certo, acredito que podemos vencer o mago Askalaquiano.  ";
-            cout<<"\nñ Perfeito, vou prepara-lo para viagem. SÛ h· um problema, o robÙ pesa 10 toneladas e nenhum animal do reino È capaz de carrega-lo, porÈm com magia podemos diminuir pela metade o peso e conseguiremos levar ele atÈ a ilha, mas a magia ir· custar muito de sua integridade fÌsica. ";
+            cout<<"\nVoc√™ passa o dia inteiro perguntando para todos no reino qualquer informa√ß√£o que possa aproveitar sobre a bruxa";
+            cout<<"\nAp√≥s muitas perguntas e nenhuma pista sobre a bruxa, um homem se aproxima de voc√™. ";
+            cout<<"\n¬ñ  Ol√° mago x, me chamo Meierd, sou um cientista m√≠stico e acho que tenho a solu√ß√£o para salvar a princesa.  ";
+            cout<<"\n¬ñ Prossiga, voc√™ diz sem muita expectativa. ";
+            cout<<"\n¬ñ Eu foquei muito tempo de meus estudos na cria√ß√£o de um rob√¥ que acredito que possa vencer qualquer mago em uma batalha, se quiser posso lhe mostrar como funciona. ";
+            cout<<"\nVoc√™ curioso com o rob√¥ segue o homem at√© sua oficina. ";
+            cout<<"\nVendo o rob√¥, voc√™ pede para que ele de uma demonstra√ß√£o de seu funcionamento. ";
+            cout<<"\nEnt√£o Meierd ativa o rob√¥ que come√ßa a crescer. Cada cent√≠metro que o rob√¥ crescia voc√™ ficava mais fraco. Ap√≥s 20 segundos com um rob√¥ crescendo do seu lado, voc√™ j√° estava muito fraco e pede pra que Meierd o desligue.";
+            cout<<"\nE recuperando o f√¥lego voc√™ diz: ";
+            cout<<"\n¬ñ Certo, acredito que podemos vencer o mago Askalaquiano.  ";
+            cout<<"\n¬ñ Perfeito, vou prepara-lo para viagem. S√≥ h√° um problema, o rob√¥ pesa 10 toneladas e nenhum animal do reino √© capaz de carrega-lo, por√©m com magia podemos diminuir pela metade o peso e conseguiremos levar ele at√© a ilha, mas a magia ir√° custar muito de sua integridade f√≠sica. ";
             cout<<"\nDigite 1 para seguir com o Meierd 2 para Desistir e ir embora";
             cin>>num;
 // 2.1 - SEGUIR O PLANO
             if(num = 1){
-                cout<<"\nñ Isso n„o ser· um problema Meierd, a viagem ser· longa, e demorada (aproximadamente 10 vezes mais do que o tempo que levaria sem o robÙ), mas a recompensa ser· muito boa. ";
-                cout<<"\nMeierd finaliza os preparativos para a viagem e vocÍs saem";
-                cout<<"\nA viagem È muito difÌcil e custa muito de sua sa˙de. ";
-                cout<<"\nMuito tempo depois, vocÍ chega ‡ ilha onde est· a princesa. O lugar era obscuro e o acesso a ilha sÛ poderia ser feito por uma ponte que estava caindo aos pedaÁos. ";
-                cout<<"\nAo entrar na ilha vocÍ percebe que algo estranho est· acontecendo, normalmente o mago deixa armadilhas para receber os visitantes n„o desejados, mas nada havia acontecido. ";
-                cout<<"\nApÛs procurar em toda a ilha, e perceber que n„o havia mais ninguÈm naquele local. VocÍ diz a Meierd: ";
-                cout<<"\nñ Demoramos muito Meierd, alguÈm j· conseguiu resgata-la.";
-                cout<<"\nñ Infelizmente demoramos muito. ";
-                cout<<"\nñ O que nos resta agora È voltar";
-                cout<<"\nñ Desculpe, mas n„o posso sair dessa ilha de m„os vazias. Disse Meierd, enquanto ligava o robÙ. ";
-                cout<<"\nEnt„o apÛs uma longa viagem o que restar· de sua sa˙de È sugada por um robÙ. ";
+                cout<<"\n¬ñ Isso n√£o ser√° um problema Meierd, a viagem ser√° longa, e demorada (aproximadamente 10 vezes mais do que o tempo que levaria sem o rob√¥), mas a recompensa ser√° muito boa. ";
+                cout<<"\nMeierd finaliza os preparativos para a viagem e voc√™s saem";
+                cout<<"\nA viagem √© muito dif√≠cil e custa muito de sua sa√∫de. ";
+                cout<<"\nMuito tempo depois, voc√™ chega √† ilha onde est√° a princesa. O lugar era obscuro e o acesso a ilha s√≥ poderia ser feito por uma ponte que estava caindo aos peda√ßos. ";
+                cout<<"\nAo entrar na ilha voc√™ percebe que algo estranho est√° acontecendo, normalmente o mago deixa armadilhas para receber os visitantes n√£o desejados, mas nada havia acontecido. ";
+                cout<<"\nAp√≥s procurar em toda a ilha, e perceber que n√£o havia mais ningu√©m naquele local. Voc√™ diz a Meierd: ";
+                cout<<"\n¬ñ Demoramos muito Meierd, algu√©m j√° conseguiu resgata-la.";
+                cout<<"\n¬ñ Infelizmente demoramos muito. ";
+                cout<<"\n¬ñ O que nos resta agora √© voltar";
+                cout<<"\n¬ñ Desculpe, mas n√£o posso sair dessa ilha de m√£os vazias. Disse Meierd, enquanto ligava o rob√¥. ";
+                cout<<"\nEnt√£o ap√≥s uma longa viagem o que restar√° de sua sa√∫de √© sugada por um rob√¥. ";
                 cout<<"\nGAME OVER";
                 return 0;
             }
 //2.2 - DESISTIR DO PLANO
             if(num == 2){
-                cout<<"\nñ Desculpe Meierd, n„o poderei fazer isso, ser· muito trabalho e ainda tenho outras opÁıes.  ";
-                cout<<"\nñ … uma pena. Disse Meierd ";
-                cout<<"\nApÛs se recuperar vocÍ se levante e comeÁa a ir em bora. Quando se sente fraco novamente e escuta Meierd no fundo da oficina. ";
-                cout<<"\nñSinto muito, mas infelizmente n„o posso deixar vocÍ sair com a informaÁ„o da minha invenÁ„o. ";
-                cout<<"\nEnt„o o robÙ de Meierd cresce atÈ que suas energias acabam. ";
+                cout<<"\n¬ñ Desculpe Meierd, n√£o poderei fazer isso, ser√° muito trabalho e ainda tenho outras op√ß√µes.  ";
+                cout<<"\n¬ñ √â uma pena. Disse Meierd ";
+                cout<<"\nAp√≥s se recuperar voc√™ se levante e come√ßa a ir em bora. Quando se sente fraco novamente e escuta Meierd no fundo da oficina. ";
+                cout<<"\n¬ñSinto muito, mas infelizmente n√£o posso deixar voc√™ sair com a informa√ß√£o da minha inven√ß√£o. ";
+                cout<<"\nEnt√£o o rob√¥ de Meierd cresce at√© que suas energias acabam. ";
                 cout<<"\nGAME OVER";
             }
         }
