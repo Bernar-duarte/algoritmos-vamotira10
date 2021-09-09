@@ -343,8 +343,8 @@ int main()
 
                     }            else if (escolha3 == 2) {
 
-                                    cout << endl << " Você opta por usar a magia de fogo, porém, ao começar a canalização, um dos mercenários lança sua adaga, o acertando em cheio na panturilha";
-                                    cout << endl << " fazendo você cair de joelhos no chão, outro o esfaqueia no ombro, e você grita de dor. Você tenta voltar atrás, e lançar o feitiço de ricochete em sí mesmo,";
+                                    cout << endl << " Você opta por usar a magia de fogo, porém, ao começar a canalização, um dos mercenários lança sua adaga, o acertando em cheio na panturilha.";
+                                    cout << endl << " Fazendo você cair de joelhos no chão, outro o esfaqueia no ombro, e você grita de dor. Você tenta voltar atrás, e lançar o feitiço de ricochete em sí mesmo,";
                                     cout << endl << " porém ja é tarde. Um dos mercenários o chuta no estômago, você cai no chão, agonizando.";
                                     cout << endl << " Você morreu e Eliot desapareceu.";
                                     cout << endl << " A missão fracassou.";
