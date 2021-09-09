@@ -414,7 +414,7 @@ int main()
                 cout << endl << " Faltando pouco para o fim da Grande Ponto Rinfih, as nuvens se chocam, o vento aumenta e a chuva começa.";
                 cout << endl << " As pessoas rapidamente começam a recolher seus pertences e itens de venda, vocês aceleram o passo, porém, uma forte rajada de vento sopra contra vocês e ambos os capuzes acabam caindo.";
                 cout << endl << " Olhando em direção a vocês, as pessoas começam a sussurar entre sí.";
-                cout << endl << " - Um mago! - Cochicha um comericante.";
+                cout << endl << " - Um mago! - Cochicha um comerciante.";
                 cout << endl << " - Oque este tipo de coisa faz aqui? - Alguém esbraveja.";
                 cout << endl << " - E... o Marquês? - Comenta outro comerciante.";
                 cout << endl << " Você coloca o capuz novamente, Eliot faz o mesmo, acelerando o passo vocês finalmente concluem a travessia pela ponte, deixando os murmurinhos para trás," << endl << " é quando você percebe uma suspeita movimentação em meio as árvores da misteriosa Floresta Catherine, que acompanha a estrada.";
