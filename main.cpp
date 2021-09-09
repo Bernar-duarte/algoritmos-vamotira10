@@ -416,7 +416,7 @@ int main()
         }
 
 
-
+//ESCOLHA 1.2 - CONTINUAR TRAVESSIA
 
            else {
                 cout << endl << " Você opta por seguir em frente, mas o fato de estar sem poções martela na sua cabeça.";
@@ -434,7 +434,7 @@ int main()
                 cout << endl << " Digite sua opção: ";
                 cin >> escolha2;
 
-
+//ESCOLHA 2.1 - INVESTIGAR A ESTRANHA MOVIMENTAÇÃO
 
         }          if (escolha2 == 1) {
 
@@ -448,7 +448,8 @@ int main()
                     cout << endl << " O Marquês está morto, a missão fracassou.";
 
                         return 0;
-
+               
+//ESCOLHA 2.2 - CONTINUAR NO CAMINHO
         }               else {
 
                             cout << endl << " Sem tempo para devaneios vocês seguem pelo caminho, porém, ainda com receio sobre a suspeita movimentação, você acha melhor manterem um passo acelerado.";
@@ -474,8 +475,9 @@ int main()
                             cout << endl << " Opção 3: Correr atrás de Eliot.";
                             cout << endl << " Digite sua opção: ";
                             cin >> escolha3;
+               
 
-
+//ESCOLHA 3.1 - MAGIA DO RICOCHETE
 }                                if (escolha3 == 1) {
 
                                      cout << endl << " Você opta por usar a magia de ricochete em sí mesmo. Os mercenários tentam lhe acertar, porém sem sucesso, pois sua pele e roupa se tornaram impenetráveis.";
@@ -487,8 +489,9 @@ int main()
                                      cout << endl << " Opção 2: Tomar o caminho da direita.";
                                      cout << endl << " Digite sua opção: ";
                                      cin >> escolha4;
-
-
+               
+               
+//ESCOLHA 3.2 - MAGIA DO FOGO
                               }       else if (escolha3 == 2) {
 
                                             cout << endl << " Você opta por usar a magia de fogo, porém, ao começar a canalização, um dos mercenários lança sua adaga, o acertando em cheio na panturilha";
@@ -499,7 +502,7 @@ int main()
 
                                            return 0;
 
-
+//ESCOLHA 3.3 - CORRER ATRAS DE ELIOT
 }                                      else {
 
                                             cout << endl << " Você opta por tentar correr atrás de Eliot, e ao adentrar na mata, o vê cambaleando por entre algumas árvores.";
@@ -517,7 +520,7 @@ int main()
 
 
 
-
+//ESCOLHA 4.1 - TOMAR CAMINHO DA ESQUERDA
        }                                 if (escolha4 == 1) {
 
                                             cout << endl << " Você toma o caminho da esquerda e retira de sua sacola uma pequena pedra mágica, que emite uma luz fraca, porém útil.";
@@ -546,6 +549,7 @@ int main()
                                             cin >> escolha5;
 
 
+  //ESCOLHA 4.2 - TOMAR CAMINHO DA DIREITA             
                                     }       else {
 
                                                 cout << endl << " Você opta por tomar o caminho da direita, e retira de sua sacola uma pequena pedra mágica, que emite uma luz fraca, porém útil.";
@@ -559,6 +563,7 @@ int main()
                                                 return 0;
 
 
+  //ESCOLHA 5.1 - PARTIR AGORA             
                  }                    if (escolha5 == 1) {
 
                                                     cout << endl << " Visando o pagamento cheio da missão, vocês partem na calada da noite e com sua mana esgotada, você só tem forças para criar uma pequena tocha, que ilumina vagamente o caminho.";
@@ -576,7 +581,7 @@ int main()
 
                                                     return 0;
 
-
+//ESCOLHA 5.2 - PASSAR A NOITE NA CAVERNA
                                         }               else {
 
                                                             cout << endl << " Você opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, após alguns minutos, você faz o mesmo.";
