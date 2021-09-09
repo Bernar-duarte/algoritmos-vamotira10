@@ -528,7 +528,7 @@ int main()
                                             cout << endl << " O Marquês senta no chão, aliviado. Você o acompanha, sentando exausto a seu lado.";
                                             cout << endl << " - Essa foi por pouco, muito, muito pouco. - Eliot comenta, ainda ofegante.";
                                             cout << endl << " - Você me deu mais trabalho do que eu imaginava. - Você responde, tão ofengante quanto.";
-                                            cout << endl << " Vocês estão cansados e está escuro la fora agora, talvez seja melhor descansar na caverna até amanhacer para recuperar as energias, lembrando que" << endl << " caso o Marquês seja entregue no dia seguinte, você receberá metade do valor acordado.";
+                                            cout << endl << " Vocês estão cansados e está escuro la fora agora, talvez seja melhor descansar na caverna até amanhecer para recuperar as energias, lembrando que" << endl << " caso o Marquês seja entregue no dia seguinte, você receberá metade do valor acordado.";
                                             cout << endl << " Você deve escolher entre:";
                                             cout << endl << " Opção 1: Partir agora.";
                                             cout << endl << " Opção 2: Passar a noite na caverna.";
