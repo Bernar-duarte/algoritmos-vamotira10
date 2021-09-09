@@ -213,16 +213,17 @@ int main()
     return 0;
     }
 
-
-    //INÍCIO DA HISTÓRIA 2
+ 
+//INÍCIO DA HISTORIA 2 
     if (num == 2){
+//INTRODUÇÃO A MISSÃO
         cout << endl << " ---------------------------------------------------------------------------------------------   ";
     cout << endl << " Após selecionar a missão média, você fala com o líder da guilda e aceita a missão de Escoltar o Marquês Eliot de volta ao castelo do Reino de Freljord.";
     cout << endl << " Ele o orienta a ser cauteloso, visto que o Marquês de 17 anos é filho de Eratus, um renomado Lorde do reino.";
     cout << endl << " Você também deve concluir a missão em um dia, caso contrário, receberá metade do valor acordado.";
-    cout << endl << " - Alguma vez falhei em alguma missão Bjork? - Você diz ao chefe da guilda. O mesmo gargalha e concorda com a cabeça.";
-    //começo da missão
-
+    cout << endl << " - Alguma vez falhei em alguma missão Bjork? - Você diz ao chefe da guilda. O mesmo gargalha e concorda com a cabeça."; 
+        
+//INÍCIO DA MISSÃO      
     cout << endl << " O dia amanhace, você arruma seus mantimentos e parte.";
     cout << endl << " A estrada é calma, e sem imprevistos ou surpresas desagradáveis, você chega ao local marcado no contrato e entrega";
     cout << endl << " uma túnica ao Marquês, que a recebe com relutância.";
@@ -253,6 +254,8 @@ int main()
     cout << endl << " Opção 2: Continuar a travessia.";
     cout << endl << " Digite a opção: ";
     cin >> escolha1;
+        
+  //ESCOLHA 1.1 - PARAR EM UMA TENDA DE POÇÕES
         if (escolha1 == 1) {
             cout << endl << " Você segue em direção a uma mercadora que anuncia poções, e faz sinal para Evelot lhe seguir.";
             cout << endl << " - Oque gostaria meu senhor? - Pergunta a velha senhora, cega de um olho e com um estranho sorriso no rosto.";
@@ -281,6 +284,8 @@ int main()
             cout << endl << " Opção 2: Continuar no caminho.";
             cout << endl << " Digite sua opção: ";
             cin >> escolha2;
+            
+//ESCOLHA 2.1 - INVESTIGAR A ESTRANHA MOVIMENTAÇÃO
                 if (escolha2 == 1){
                     cout << endl << " Você entra na mata, Eliot ainda com o capuz o segue, vocês caminham por alguns minutos, a floresta está inquieta," << endl << " e só é possível ouvir os sons das gotas da chuva batendo vagamente contra as folhas das árvores.";
                     cout << endl << " Após alguns minutos de caminhada, o silêncio é quebrado quando Eliot é bruscamente puxado para cima, gritando desesperado em seguida.";
@@ -294,6 +299,7 @@ int main()
 
                 }
 
+//ESCOLHA 2.2 - CONTINUAR NO CAMINHO
                 if (escolha2 == 2) {
                     cout << endl << " Sem tempo para devaneios vocês seguem pelo caminho, porém, ainda com receio sobre a suspeita movimentação, você acha melhor manterem um passo acelerado.";
                     cout << endl << " - Não podemos parar agora, continue me seguindo. - Você fala, acelerando ainda mais o passo.";
@@ -319,6 +325,7 @@ int main()
                     cout << endl << " Digite a opção: ";
                     cin >> escolha3;
                 }
+//ESCOLHA 3.1 - MAGIA DE RICOCHTE            
                 if (escolha3 == 1) {
 
                             cout << endl << " Você opta por usar a magia de ricochete em sí mesmo. Os mercenários tentam lhe acertar, porém sem sucesso pois sua pele e roupa se tornaram impenetráveis.";
@@ -340,7 +347,8 @@ int main()
                             cout << endl << " Opção 2: Partir agora.";
                             cout << endl << " Digite a opção: ";
                             cin >> escolha4;
-
+             
+         //ESCOLHA 3.2 - MAGIA DE FOGO
                     }            else if (escolha3 == 2) {
 
                                     cout << endl << " Você opta por usar a magia de fogo, porém, ao começar a canalização, um dos mercenários lança sua adaga, o acertando em cheio na panturilha.";
@@ -350,7 +358,8 @@ int main()
                                     cout << endl << " A missão fracassou.";
 
                                     return 0;
-
+                    
+        //ESCOLHA 3.3 - CORRER ATRAS DE ELIOT
                     }            else  {
 
                                     cout << endl << " Você opta por tentar correr atrás de Eliot, e ao adentrar na mata, o vê cambaleando por entre algumas árvores.";
@@ -365,7 +374,8 @@ int main()
                                     cout << endl << " A missão fracassou.";
 
                                     return 0;
-
+                    
+    //ESCOLHA 4.1 - PASSAR A NOITE NA CAVERNA
            }             if (escolha4 == 1) {
 
                             cout << endl << " Você opta por esperar amanhecer. Eliot se aconchega em uma das pedras e dorme, após alguns minutos, você faz o mesmo.";
@@ -384,7 +394,7 @@ int main()
                             return 0;
 
 
-
+    //ESCOLHA 4.2 - PARTIR AGORA
             }               else {
 
                                 cout << endl << " Visando o pagamento cheio da missão, vocês partem na calada da noite e com sua mana esgotada, você só tem forças para criar uma pequena tocha, que ilumina vagamente o caminho.";
