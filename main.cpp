@@ -334,7 +334,7 @@ int main()
                             cout << endl << " Os Grogous farejam o ar, e após sentirem o cheiro do desconhecido líquido, começam a gritar, quase como se sentissem dor," << endl << " correndo em seguida em direção a saída da caverna, que antes clara, agora é iluminada apenas pela lua.";
                             cout << endl << " - Oq-Oque aconteceu? Eu achei que a gente já era. - Comenta Eliot, ainda espantado.";
                             cout << endl << " - Isso era Espanta Besta, uma poção difícil de ser encontrada, e mais ainda de ser produzida. E se não fosse por ela, sim, a gente já era.";
-                            cout << endl << " Você está exaustado e está escuro la fora agora, talvez seja melhor descansar na caverna até amanhacer para recuperar as energias, lembrando que" << endl << " caso o Marquês seja entregue no dia seguinte, você receberá metade do valor acordado.";
+                            cout << endl << " Você está exaustado e está escuro la fora agora, talvez seja melhor descansar na caverna até amanhecer para recuperar as energias, lembrando que" << endl << " caso o Marquês seja entregue no dia seguinte, você receberá metade do valor acordado.";
                             cout << endl << " Oque você deseja fazer?";
                             cout << endl << " Opção 1: Passar a noite na caverna.";
                             cout << endl << " Opção 2: Partir agora.";
